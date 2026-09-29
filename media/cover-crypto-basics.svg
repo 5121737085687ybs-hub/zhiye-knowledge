@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#e8ebdf"/>
+  <circle cx="860" cy="344" r="234" fill="#d7deca"/>
+  <circle cx="860" cy="344" r="166" fill="#e2e6d8" stroke="#718064" stroke-opacity=".25" stroke-width="2"/>
+  <g fill="none" stroke="#536b48" stroke-width="3" stroke-opacity=".62">
+    <path d="M730 300 856 210l122 94-46 151-154-9z"/>
+    <path d="M730 300 932 455M856 210l-78 236M978 304 726 301" stroke-opacity=".28"/>
+  </g>
+  <g fill="#536b48" stroke="#f5f4ef" stroke-width="8">
+    <circle cx="730" cy="300" r="18"/><circle cx="856" cy="210" r="18"/>
+    <circle cx="978" cy="304" r="18"/><circle cx="932" cy="455" r="18"/>
+    <circle cx="778" cy="446" r="18"/>
+  </g>
+  <circle cx="1040" cy="160" r="36" fill="#d48152" opacity=".9"/>
+  <path d="M1024 160h32M1040 144v32" stroke="#fffefa" stroke-width="3" opacity=".8"/>
+  <text x="94" y="170" fill="#777a70" font-family="Arial,sans-serif" font-size="22" letter-spacing="7">知页 · 加密入门</text>
+  <text x="90" y="325" fill="#20241f" font-family="'Songti SC','Noto Serif CJK SC',serif" font-size="67">看懂链、币与钱包</text>
+  <path d="M95 365h85" stroke="#d48152" stroke-width="3"/>
+  <text x="95" y="420" fill="#73776c" font-family="Arial,sans-serif" font-size="20" letter-spacing="5">NETWORK · ASSET · WALLET</text>
+  <text x="95" y="600" fill="#899084" font-family="Arial,sans-serif" font-size="16" letter-spacing="4">把复杂概念拆成清楚的关系</text>
+</svg>
