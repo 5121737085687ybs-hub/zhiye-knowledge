@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#eee9df"/>
+  <circle cx="870" cy="354" r="236" fill="#e5ddcf"/>
+  <rect x="751" y="192" width="244" height="310" rx="6" fill="#fffefa" transform="rotate(5 873 347)"/>
+  <path d="M807 270h126M807 316h126M807 362h104" stroke="#c7c9bc" stroke-width="8" stroke-linecap="round"/>
+  <g fill="none" stroke="#536b48" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m798 267 9 9 17-20M798 313l9 9 17-20M798 359l9 9 17-20"/>
+  </g>
+  <circle cx="970" cy="455" r="75" fill="#d48152"/>
+  <path d="M970 414v48M970 482v3" stroke="#fffefa" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="1040" cy="150" r="31" fill="#536b48" opacity=".9"/>
+  <path d="m1027 150 9 9 18-20" fill="none" stroke="#fffefa" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="94" y="170" fill="#777a70" font-family="Arial,sans-serif" font-size="22" letter-spacing="7">知页 · 风险识别</text>
+  <text x="90" y="325" fill="#20241f" font-family="'Songti SC','Noto Serif CJK SC',serif" font-size="67">先核查，再转账</text>
+  <path d="M95 365h85" stroke="#d48152" stroke-width="3"/>
+  <text x="95" y="420" fill="#73776c" font-family="Arial,sans-serif" font-size="20" letter-spacing="5">PAUSE · VERIFY · DECIDE</text>
+  <text x="95" y="600" fill="#899084" font-family="Arial,sans-serif" font-size="16" letter-spacing="4">一份识别高风险信号的清单</text>
+</svg>
