@@ -1,0 +1,95 @@
+media:
+  input: media
+  output: media
+  rename: safe
+  categories: [image]
+
+content:
+  - name: site
+    label: 网站设置
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: title
+        label: 网站名称
+        type: string
+        required: true
+      - name: eyebrow
+        label: 首页小标题
+        type: string
+      - name: intro
+        label: 首页简介
+        type: text
+      - name: description
+        label: 搜索摘要
+        type: text
+      - name: author
+        label: 默认作者名
+        type: string
+  - name: posts
+    label: 分享内容
+    type: file
+    path: data/posts.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: 内容编号（英文或数字）
+        type: string
+        required: true
+        description: 每条内容需唯一，例如 my-first-note。
+      - name: title
+        label: 标题
+        type: string
+        required: true
+      - name: type
+        label: 内容形式
+        type: select
+        options:
+          values: [文章, 视频, 图解]
+      - name: category
+        label: 分类
+        type: string
+      - name: date
+        label: 发布日期
+        type: date
+        options:
+          format: yyyy-MM-dd
+      - name: author
+        label: 作者
+        type: string
+      - name: excerpt
+        label: 摘要
+        type: text
+      - name: cover
+        label: 封面图片
+        type: image
+        options:
+          path: covers
+          extensions: [png, jpg, jpeg, webp, svg]
+          rename: safe
+      - name: mediaUrl
+        label: 视频或图解地址
+        type: string
+        description: 视频填哔哩哔哩、YouTube 或 MP4 链接；图解可上传图片。
+      - name: imageAlt
+        label: 图解说明
+        type: string
+      - name: body
+        label: 正文
+        type: rich-text
+        options:
+          format: markdown
+          path: content
+          extensions: [png, jpg, jpeg, webp]
+      - name: featured
+        label: 设为首页精选
+        type: boolean
+
+settings:
+  commit:
+    templates:
+      create: "content: add {collection} entry {primary}"
+      update: "content: update {collection} entry {primary}"
+      delete: "content: remove {collection} entry {primary}"

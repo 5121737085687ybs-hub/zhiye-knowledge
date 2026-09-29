@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4ef"><title>内容管理 · 知页</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    body{min-height:100vh;display:grid;place-items:center;padding:26px;background:var(--paper)}
+    .admin-card{width:min(540px,100%);padding:clamp(30px,7vw,58px);background:var(--white);border:1px solid var(--line);box-shadow:0 18px 60px rgba(40,48,35,.07)}
+    .admin-card .brand{margin-bottom:44px}.admin-card h1{font:38px/1.4 var(--serif);font-weight:500;margin:18px 0 12px}.admin-card h1 em{font-style:normal;color:var(--green)}
+    .admin-card>p:not(.eyebrow){font-size:12px;line-height:2;color:#74776d;margin:0 0 25px}
+    .steps{margin:26px 0;padding:0;list-style:none;counter-reset:steps}.steps li{counter-increment:steps;display:grid;grid-template-columns:31px 1fr;gap:12px;padding:14px 0;border-top:1px solid #e3e4dc;font-size:11px;line-height:1.8;color:#666a60}.steps li:before{content:"0" counter(steps);color:var(--orange);font-size:9px;letter-spacing:.1em;padding-top:2px}.steps strong{color:var(--ink);font-weight:600}.admin-button{width:100%;justify-content:center;margin-top:4px;padding:15px;background:var(--green-dark);color:var(--white);font-size:11px;display:flex;align-items:center;gap:14px}.admin-button:hover{background:#263b29}.admin-note{margin-top:19px!important;padding-top:15px;border-top:1px solid #e3e4dc;font-size:10px!important}.back-link{display:inline-block;margin-top:14px;color:var(--green);font-size:10px}
+  </style>
+</head>
+<body>
+  <main class="admin-card">
+    <a class="brand" href="../"><span class="brand-mark">知</span><span class="brand-name">知页</span><span class="brand-dot">.</span></a>
+    <p class="eyebrow"><span class="eyebrow-line"></span> CONTENT MANAGEMENT</p>
+    <h1>你的内容，<br><em>在这里轻松更新。</em></h1>
+    <p>用 Pages CMS 管理文章、封面图、图解和视频链接。保存后会写入你的 GitHub 仓库，网站随后自动更新。</p>
+    <ol class="steps">
+      <li><span><strong>登录 Pages CMS</strong><br>使用持有此网站仓库的 GitHub 账号登录。</span></li>
+      <li><span><strong>连接知页仓库</strong><br>首次使用时选择知页仓库并授权 CMS 访问。</span></li>
+      <li><span><strong>编辑并保存</strong><br>在「分享内容」里新增或修改文章、视频和图解。</span></li>
+    </ol>
+    <a class="admin-button" href="https://app.pagescms.org" target="_blank" rel="noopener noreferrer">打开 Pages CMS <span aria-hidden="true">↗</span></a>
+    <p class="admin-note">后台通过 GitHub 账号验证，不需要在这个网站输入个人访问令牌。图片会保存到仓库；视频建议粘贴哔哩哔哩或 YouTube 链接。</p>
+    <a class="back-link" href="../">← 返回知页首页</a>
+  </main>
+</body>
+</html>
