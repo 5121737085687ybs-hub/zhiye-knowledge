@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">链、资产、钱包与平台的关系</title>
+  <desc id="desc">区块链记录资产状态；钱包管理密钥并签署操作；交易平台提供买卖与账户服务；智能合约是链上程序。</desc>
+  <rect width="1200" height="760" rx="22" fill="#f1f0e8"/>
+  <text x="70" y="88" fill="#20241f" font-family="'Songti SC','Noto Serif CJK SC',serif" font-size="48">先分清链、资产、钱包与平台</text>
+  <text x="72" y="130" fill="#777a70" font-family="Arial,sans-serif" font-size="20" letter-spacing="2">四个概念互相配合，但它们不是一回事</text>
+  <rect x="70" y="184" width="1060" height="198" rx="14" fill="#30452f"/>
+  <circle cx="175" cy="282" r="54" fill="#52684a"/>
+  <path d="M151 267h48M151 283h48M151 299h33" stroke="#e2e99e" stroke-width="6" stroke-linecap="round"/>
+  <text x="265" y="257" fill="#e2e99e" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="34" font-weight="700">区块链网络</text>
+  <text x="265" y="310" fill="#fffefa" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="25">共同校验交易，并记录地址与资产状态</text>
+  <g font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+    <g transform="translate(70 420)">
+      <rect width="245" height="210" rx="12" fill="#fffefa"/>
+      <text x="26" y="54" fill="#c7794b" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">01 / ASSET</text>
+      <text x="26" y="105" fill="#20241f" font-size="30" font-weight="700">数字资产</text>
+      <text x="26" y="151" fill="#777a70" font-size="21">BTC、ETH、稳定币</text>
+      <text x="26" y="183" fill="#777a70" font-size="19">按网络规则记录</text>
+    </g>
+    <g transform="translate(340 420)">
+      <rect width="245" height="210" rx="12" fill="#fffefa"/>
+      <text x="26" y="54" fill="#536b48" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">02 / WALLET</text>
+      <text x="26" y="105" fill="#20241f" font-size="30" font-weight="700">钱包</text>
+      <text x="26" y="151" fill="#777a70" font-size="21">查看地址、签署操作</text>
+      <text x="26" y="183" fill="#777a70" font-size="19">关键是密钥控制权</text>
+    </g>
+    <g transform="translate(610 420)">
+      <rect width="245" height="210" rx="12" fill="#fffefa"/>
+      <text x="26" y="54" fill="#536b48" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">03 / EXCHANGE</text>
+      <text x="26" y="105" fill="#20241f" font-size="30" font-weight="700">交易平台</text>
+      <text x="26" y="151" fill="#777a70" font-size="21">买卖、兑换与账户服务</text>
+      <text x="26" y="183" fill="#777a70" font-size="19">留意托管和平台规则</text>
+    </g>
+    <g transform="translate(880 420)">
+      <rect width="250" height="210" rx="12" fill="#e4e9dc"/>
+      <text x="26" y="54" fill="#c7794b" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">04 / CONTRACT</text>
+      <text x="26" y="105" fill="#20241f" font-size="30" font-weight="700">智能合约</text>
+      <text x="26" y="151" fill="#777a70" font-size="21">按条件运行的链上程序</text>
+      <text x="26" y="183" fill="#777a70" font-size="19">代码存在不等于安全</text>
+    </g>
+  </g>
+  <g stroke="#b7bdab" stroke-width="3" fill="none">
+    <path d="M190 382v24M462 382v24M732 382v24M1005 382v24"/>
+  </g>
+  <text x="70" y="704" fill="#85877d" font-family="Arial,sans-serif" font-size="16" letter-spacing="3">知页 · 加密资产入门</text>
+  <text x="1130" y="704" text-anchor="end" fill="#85877d" font-family="Arial,sans-serif" font-size="16" letter-spacing="2">CONCEPT MAP</text>
+</svg>
