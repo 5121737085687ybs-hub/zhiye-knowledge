@@ -1,4 +1,4 @@
-const DATA = { site: "./data/site.json?v=20260930", posts: "./data/posts.json?v=20260930" };
+const DATA = { site: "./data/site.json", posts: "./data/posts.json" };
 const state = { site: {}, posts: [], filter: "全部", query: "" };
 const $ = (selector, root = document) => root.querySelector(selector);
 const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g, char => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[char]));
@@ -116,9 +116,10 @@ function openPost(id) {
 }
 async function loadData() {
   try {
+    const dataVersion = `?v=${Date.now()}`;
     const [siteResponse, postsResponse] = await Promise.all([
-      fetch(DATA.site, { cache: "no-store" }),
-      fetch(DATA.posts, { cache: "no-store" })
+      fetch(`${DATA.site}${dataVersion}`, { cache: "no-store" }),
+      fetch(`${DATA.posts}${dataVersion}`, { cache: "no-store" })
     ]);
     if (!siteResponse.ok || !postsResponse.ok) throw new Error("内容文件暂时不可用");
     const [site, posts] = await Promise.all([siteResponse.json(), postsResponse.json()]);
