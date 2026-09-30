@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">资金盘承诺收益到提现受阻的循环</title>
+  <desc id="desc">项目承诺高回报吸引新资金，再用部分新资金制造早期回报，靠宣传和拉新延续；新增资金放缓后，提现会受阻。</desc>
+  <rect width="1200" height="760" rx="22" fill="#f1f0e8"/>
+  <text x="70" y="88" fill="#20241f" font-family="'Songti SC','Noto Serif CJK SC',serif" font-size="48">看一笔资金如何形成循环</text>
+  <text x="72" y="130" fill="#777a70" font-family="Arial,sans-serif" font-size="20" letter-spacing="2">识别重点是收入来源，而不是项目用了什么技术</text>
+  <g font-family="'PingFang SC','Microsoft YaHei',sans-serif" text-anchor="middle">
+    <g transform="translate(70 210)">
+      <rect width="300" height="150" rx="14" fill="#fffefa"/>
+      <circle cx="54" cy="55" r="27" fill="#f1e4d8"/>
+      <text x="54" y="64" fill="#c7794b" font-size="25" font-weight="700">01</text>
+      <text x="180" y="72" fill="#20241f" font-size="29" font-weight="700">承诺回报</text>
+      <text x="150" y="120" fill="#777a70" font-size="20">固定、高额、低风险</text>
+    </g>
+    <g transform="translate(450 210)">
+      <rect width="300" height="150" rx="14" fill="#fffefa"/>
+      <circle cx="54" cy="55" r="27" fill="#e4e9dc"/>
+      <text x="54" y="64" fill="#536b48" font-size="25" font-weight="700">02</text>
+      <text x="180" y="72" fill="#20241f" font-size="29" font-weight="700">新资金进入</text>
+      <text x="150" y="120" fill="#777a70" font-size="20">充值、套餐或入会</text>
+    </g>
+    <g transform="translate(830 210)">
+      <rect width="300" height="150" rx="14" fill="#fffefa"/>
+      <circle cx="54" cy="55" r="27" fill="#e4e9dc"/>
+      <text x="54" y="64" fill="#536b48" font-size="25" font-weight="700">03</text>
+      <text x="180" y="72" fill="#20241f" font-size="29" font-weight="700">显示早期回报</text>
+      <text x="150" y="120" fill="#777a70" font-size="20">余额与截图制造信任</text>
+    </g>
+    <g transform="translate(260 470)">
+      <rect width="300" height="150" rx="14" fill="#fffefa"/>
+      <circle cx="54" cy="55" r="27" fill="#f1e4d8"/>
+      <text x="54" y="64" fill="#c7794b" font-size="25" font-weight="700">04</text>
+      <text x="180" y="72" fill="#20241f" font-size="29" font-weight="700">继续拉新</text>
+      <text x="150" y="120" fill="#777a70" font-size="20">返利、等级与复投</text>
+    </g>
+    <g transform="translate(640 470)">
+      <rect width="300" height="150" rx="14" fill="#30452f"/>
+      <circle cx="54" cy="55" r="27" fill="#52684a"/>
+      <text x="54" y="64" fill="#e2e99e" font-size="25" font-weight="700">05</text>
+      <text x="180" y="72" fill="#fffefa" font-size="29" font-weight="700">提现受阻</text>
+      <text x="150" y="120" fill="#d2d8c7" font-size="20">拖延、限额或追加收费</text>
+    </g>
+  </g>
+  <g fill="#c7794b">
+    <path d="m390 280 34-18v36z"/><path d="m770 280 34-18v36z"/>
+    <path d="m810 404-18 34-18-34z"/><path d="m600 545-34-18v36z"/>
+    <path d="M240 470c-45-28-58-76-40-116" fill="none" stroke="#c7794b" stroke-width="4"/>
+    <path d="m197 351-17 27 31 2z"/>
+  </g>
+  <rect x="70" y="665" width="1060" height="54" rx="10" fill="#e4e9dc"/>
+  <text x="600" y="700" text-anchor="middle" fill="#30452f" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" font-weight="700">早期有人提现成功，也不能证明项目有持续、真实的收入</text>
+</svg>
