@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">API密钥权限与保管清单</title><desc id="desc">只授予必要权限，限制使用范围，保护密钥并监控和撤销旧凭证。</desc>
+  <rect width="1200" height="630" rx="36" fill="#f3f4ef"/><text x="72" y="92" fill="#315348" font-family="sans-serif" font-size="22" letter-spacing="4">API KEY · LEAST PRIVILEGE</text><text x="72" y="158" fill="#203d34" font-family="sans-serif" font-size="46" font-weight="700">权限越少，密钥泄露时的影响越小</text>
+  <g font-family="sans-serif"><rect x="92" y="222" width="450" height="76" rx="18" fill="#e1ebe3"/><text x="126" y="270" fill="#315348" font-size="23">读取需求 → 只开读取权限</text><rect x="92" y="316" width="450" height="76" rx="18" fill="#eee7d7"/><text x="126" y="364" fill="#6d5b2f" font-size="23">交易需求 → 限定下单权限</text><rect x="92" y="410" width="450" height="76" rx="18" fill="#e1ebe3"/><text x="126" y="458" fill="#315348" font-size="23">停止使用 → 及时撤销密钥</text>
+  <rect x="650" y="222" width="460" height="264" rx="26" fill="#fffdf7" stroke="#c8b573" stroke-width="3"/><text x="694" y="274" fill="#846a27" font-size="22">额外保护</text><text x="694" y="326" fill="#34483f" font-size="21">• 禁用不需要的提币权限</text><text x="694" y="370" fill="#34483f" font-size="21">• 使用独立密钥与安全保存</text><text x="694" y="414" fill="#34483f" font-size="21">• 支持时限制来源 IP 和有效期</text><text x="694" y="458" fill="#34483f" font-size="21">• 检查访问记录和密钥列表</text></g>
+  <text x="72" y="552" fill="#839087" font-family="sans-serif" font-size="16">知页 · 一般账户安全教育</text>
+</svg>
