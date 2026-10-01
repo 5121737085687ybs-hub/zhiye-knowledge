@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">比特币ETF与直接持币的结构差异</title><desc id="desc">ETF份额由基金结构和证券账户承载，直接持币由交易平台或自托管钱包管理。</desc>
+  <rect width="1200" height="630" rx="36" fill="#f3f4ef"/><text x="72" y="92" fill="#315348" font-family="sans-serif" font-size="22" letter-spacing="4">BITCOIN ETF · FUND SHARES VS BTC</text><text x="72" y="158" fill="#203d34" font-family="sans-serif" font-size="46" font-weight="700">价格敞口相似，持有结构不同</text>
+  <g font-family="sans-serif"><rect x="78" y="218" width="480" height="226" rx="26" fill="#e2ece4"/><text x="112" y="267" fill="#315348" font-size="24" font-weight="700">ETF 份额</text><text x="112" y="321" fill="#34483f" font-size="21">证券账户 → 基金份额</text><text x="112" y="362" fill="#52665b" font-size="18">基金托管 · 交易时段 · 管理费</text><text x="112" y="402" fill="#52665b" font-size="18">通常不能直接转到个人链上钱包</text>
+  <rect x="642" y="218" width="480" height="226" rx="26" fill="#eee7d7"/><text x="676" y="267" fill="#816a31" font-size="24" font-weight="700">直接持有 BTC</text><text x="676" y="321" fill="#403e35" font-size="21">平台托管 或 自托管钱包</text><text x="676" y="362" fill="#716b5b" font-size="18">密钥控制 · 链上转账 · 网络费用</text><text x="676" y="402" fill="#716b5b" font-size="18">需要核对保管方式与恢复责任</text></g>
+  <text x="72" y="520" fill="#43584f" font-family="sans-serif" font-size="21">两者都受价格波动影响，权利、费用、交易时间和退出方式各异。</text><text x="72" y="575" fill="#839087" font-family="sans-serif" font-size="16">知页 · 一般知识分享</text>
+</svg>
