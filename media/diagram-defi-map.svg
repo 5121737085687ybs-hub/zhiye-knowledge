@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">DeFi应用关系图</title>
+  <desc id="desc">用户通过钱包与智能合约交互，合约调用交易、借贷和流动性池，并可能依赖预言机数据。</desc>
+  <rect width="1200" height="620" rx="36" fill="#f4f8f7"/>
+  <text x="70" y="88" fill="#173b3b" font-family="Arial,sans-serif" font-size="34" font-weight="700">DeFi里的参与者与风险边界</text>
+  <text x="70" y="130" fill="#587070" font-family="Arial,sans-serif" font-size="20">代码执行规则，不保证应用或资产没有风险</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="75" y="265" width="230" height="135" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="190" y="320" fill="#173b3b" font-size="24" font-weight="700">用户钱包</text><text x="190" y="355" fill="#587070" font-size="18">持钥匙 · 签名</text>
+    <rect x="390" y="265" width="230" height="135" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="505" y="320" fill="#173b3b" font-size="24" font-weight="700">智能合约</text><text x="505" y="355" fill="#587070" font-size="18">按代码更新状态</text>
+    <rect x="705" y="190" width="220" height="115" rx="22" fill="#e8f2f1" stroke="#a8ceca" stroke-width="3"/><text x="815" y="238" fill="#176c67" font-size="22" font-weight="700">兑换与流动性池</text><text x="815" y="272" fill="#587070" font-size="17">价格变化 · 无常损失</text>
+    <rect x="705" y="360" width="220" height="115" rx="22" fill="#e8f2f1" stroke="#a8ceca" stroke-width="3"/><text x="815" y="408" fill="#176c67" font-size="22" font-weight="700">借贷与抵押</text><text x="815" y="442" fill="#587070" font-size="17">利息累积 · 清算风险</text>
+    <rect x="995" y="265" width="140" height="135" rx="24" fill="#fff" stroke="#d9bba5" stroke-width="3"/><text x="1065" y="320" fill="#8a583f" font-size="22" font-weight="700">预言机</text><text x="1065" y="355" fill="#765e50" font-size="16">外部数据</text>
+  </g>
+  <g fill="none" stroke="#2c9187" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M310 332h68m-18-18 18 18-18 18"/><path d="M625 315h48v-68h25m-18-18 18 18-18 18"/><path d="M625 350h48v68h25m-18-18 18 18-18 18"/><path d="M930 247h56m-18-18 18 18-18 18"/></g>
+  <text x="600" y="540" text-anchor="middle" fill="#8c463a" font-family="Arial,sans-serif" font-size="19" font-weight="700">先看收益来源、管理权限、授权范围和退出条件，再判断自己是否理解风险</text>
+</svg>
