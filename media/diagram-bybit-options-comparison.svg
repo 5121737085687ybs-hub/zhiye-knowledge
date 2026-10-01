@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<title id="title">Bybit Perp Options 与传统美股期权比较</title><desc id="desc">对比基础标的、交易时间、到期、乘数、结算和持股权利。</desc>
+<rect width="1200" height="680" rx="30" fill="#f5f2e9"/><text x="58" y="65" fill="#597267" font-family="sans-serif" font-size="19" letter-spacing="3">SIDE BY SIDE</text><text x="58" y="120" fill="#203d34" font-family="sans-serif" font-size="37" font-weight="700">产品结构不同，权利与风险也不同</text>
+<rect x="58" y="153" width="1084" height="66" rx="18" fill="#315348"/><text x="100" y="195" fill="#fffdf8" font-family="sans-serif" font-size="20" font-weight="700">比较项目</text><text x="420" y="195" fill="#fffdf8" font-family="sans-serif" font-size="20" font-weight="700">Bybit Perp Options</text><text x="814" y="195" fill="#fffdf8" font-family="sans-serif" font-size="20" font-weight="700">传统美股个股期权</text>
+<g font-family="sans-serif" font-size="18">
+<rect x="58" y="231" width="1084" height="66" rx="14" fill="#fffdf8"/><text x="100" y="271" fill="#203d34" font-weight="700">基础标的</text><text x="420" y="271" fill="#53645b">股票永续合约</text><text x="814" y="271" fill="#53645b">挂牌股票或 ETF</text>
+<rect x="58" y="306" width="1084" height="66" rx="14" fill="#e1ebe3"/><text x="100" y="346" fill="#203d34" font-weight="700">到期与行权</text><text x="420" y="346" fill="#53645b">有到期 · 欧式</text><text x="814" y="346" fill="#53645b">有到期 · 标准个股通常美式</text>
+<rect x="58" y="381" width="1084" height="66" rx="14" fill="#fffdf8"/><text x="100" y="421" fill="#203d34" font-weight="700">交易时间</text><text x="420" y="421" fill="#53645b">标示 7×24 小时</text><text x="814" y="421" fill="#53645b">依交易所和标的时段</text>
+<rect x="58" y="456" width="1084" height="66" rx="14" fill="#eee7d7"/><text x="100" y="496" fill="#203d34" font-weight="700">乘数与结算</text><text x="420" y="496" fill="#53645b">乘数 1 · USDT 现金</text><text x="814" y="496" fill="#53645b">通常 100 股 · 可能交割股票</text>
+<rect x="58" y="531" width="1084" height="66" rx="14" fill="#fffdf8"/><text x="100" y="571" fill="#203d34" font-weight="700">股票股东权益</text><text x="420" y="571" fill="#53645b">不直接持有股票</text><text x="814" y="571" fill="#53645b">行权取得股票后才可能享有</text>
+</g><text x="60" y="642" fill="#829087" font-family="sans-serif" font-size="16">传统美股期权的具体规则仍依合约、交易所、券商与账户而异。</text></svg>
