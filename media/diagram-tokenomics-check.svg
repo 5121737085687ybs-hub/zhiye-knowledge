@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">代币经济结构核对图</title>
+  <desc id="desc">代币经济结构包括供应、分配、解锁、用途和管理权限。</desc>
+  <rect width="1200" height="620" rx="36" fill="#f4f8f7"/>
+  <text x="70" y="88" fill="#173b3b" font-family="Arial,sans-serif" font-size="34" font-weight="700">阅读代币分配表时的五个问题</text>
+  <text x="70" y="130" fill="#587070" font-family="Arial,sans-serif" font-size="20">供应数据描述结构，不直接说明价格或价值</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <g><circle cx="190" cy="285" r="82" fill="#d8efeb"/><text x="190" y="278" fill="#176c67" font-size="22" font-weight="700">供应量</text><text x="190" y="313" fill="#587070" font-size="16">流通 / 总量</text></g>
+    <g><circle cx="395" cy="285" r="82" fill="#e6f0e8"/><text x="395" y="278" fill="#176c67" font-size="22" font-weight="700">分配</text><text x="395" y="313" fill="#587070" font-size="16">团队 / 社区</text></g>
+    <g><circle cx="600" cy="285" r="82" fill="#f2efdc"/><text x="600" y="278" fill="#8a7130" font-size="22" font-weight="700">解锁</text><text x="600" y="313" fill="#766c4c" font-size="16">时间 / 计划</text></g>
+    <g><circle cx="805" cy="285" r="82" fill="#e7e8f4"/><text x="805" y="278" fill="#55588a" font-size="22" font-weight="700">用途</text><text x="805" y="313" fill="#636582" font-size="16">费用 / 治理</text></g>
+    <g><circle cx="1010" cy="285" r="82" fill="#f3e7df"/><text x="1010" y="278" fill="#8a583f" font-size="22" font-weight="700">权限</text><text x="1010" y="313" fill="#765e50" font-size="16">增发 / 升级</text></g>
+  </g>
+  <path d="M272 285h36m-12-12 12 12-12 12M477 285h36m-12-12 12 12-12 12M682 285h36m-12-12 12 12-12 12M887 285h36m-12-12 12 12-12 12" fill="none" stroke="#2c9187" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="70" y="450" width="1060" height="76" rx="18" fill="#e8f2f1"/><text x="600" y="497" text-anchor="middle" fill="#315b59" font-family="Arial,sans-serif" font-size="20">先核实定义、统计日期和控制权限，再理解供应变化</text>
+</svg>
