@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">加密资产常见词汇分类</title>
+  <desc id="desc">将常见词汇分为网络与资产、市场交易、钱包权限、风险信号四类。</desc>
+  <rect width="1200" height="620" rx="36" fill="#f4f8f7"/>
+  <text x="70" y="88" fill="#173b3b" font-family="Arial,sans-serif" font-size="34" font-weight="700">先按用途理解行话</text>
+  <text x="70" y="130" fill="#587070" font-family="Arial,sans-serif" font-size="20">词汇解释机制，不是投资结论</text>
+  <g font-family="Arial,sans-serif">
+    <g><rect x="70" y="190" width="510" height="155" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="108" y="240" fill="#176c67" font-size="22" font-weight="700">网络与资产</text><text x="108" y="286" fill="#173b3b" font-size="20">区块链 · 主网 · 代币 · Gas · 跨链桥</text></g>
+    <g><rect x="620" y="190" width="510" height="155" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="658" y="240" fill="#176c67" font-size="22" font-weight="700">市场与交易</text><text x="658" y="286" fill="#173b3b" font-size="20">现货 · 限价单 · 滑点 · FOMO · HODL</text></g>
+    <g><rect x="70" y="385" width="510" height="155" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="108" y="435" fill="#176c67" font-size="22" font-weight="700">钱包与权限</text><text x="108" y="481" fill="#173b3b" font-size="20">地址 · 私钥 · 助记词 · 签名 · 授权</text></g>
+    <g><rect x="620" y="385" width="510" height="155" rx="24" fill="#fff" stroke="#d9bba5" stroke-width="3"/><text x="658" y="435" fill="#8a583f" font-size="22" font-weight="700">风险与异常</text><text x="658" y="481" fill="#765e50" font-size="20">强平 · 脱锚 · Rug Pull · MEV · 钓鱼</text></g>
+  </g>
+  <circle cx="600" cy="363" r="28" fill="#2c9187"/><path d="M580 363h40m-20-20v40" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+</svg>
