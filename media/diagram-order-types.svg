@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">常见订单类型的成交规则</title><desc id="desc">市价单优先成交，限价单限制价格，条件单等待指定条件触发。</desc>
+  <rect width="1200" height="630" rx="36" fill="#f4f4ee"/><text x="72" y="92" fill="#315348" font-family="sans-serif" font-size="22" letter-spacing="4">ORDER TYPES · EXECUTION RULES</text><text x="72" y="158" fill="#203d34" font-family="sans-serif" font-size="46" font-weight="700">成交速度与价格约束，是两件事</text>
+  <g font-family="sans-serif" text-anchor="middle"><rect x="78" y="228" width="300" height="190" rx="26" fill="#e1ebe3"/><text x="228" y="280" fill="#315348" font-size="23">市价单</text><text x="228" y="330" fill="#263d35" font-size="28" font-weight="700">优先尽快成交</text><text x="228" y="375" fill="#65746d" font-size="18">成交价格可能变化</text>
+  <rect x="450" y="228" width="300" height="190" rx="26" fill="#eee7d7"/><text x="600" y="280" fill="#816a31" font-size="23">限价单</text><text x="600" y="330" fill="#403e35" font-size="28" font-weight="700">设定可接受价格</text><text x="600" y="375" fill="#746c58" font-size="18">可能部分成交或未成交</text>
+  <rect x="822" y="228" width="300" height="190" rx="26" fill="#e8e8df"/><text x="972" y="280" fill="#59685f" font-size="23">条件单</text><text x="972" y="330" fill="#263d35" font-size="28" font-weight="700">等待触发条件</text><text x="972" y="375" fill="#65746d" font-size="18">触发后仍可能无法成交</text></g>
+  <path d="M378 323h72M750 323h72" stroke="#82948b" stroke-width="4"/><path d="m438 315 12 8-12 8m360-16 12 8-12 8" fill="#82948b"/>
+  <text x="78" y="500" fill="#43584f" font-family="sans-serif" font-size="22">提交前读清：参考价格、有效期、部分成交和剩余订单处理。</text><text x="78" y="558" fill="#839087" font-family="sans-serif" font-size="16">知页 · 一般知识分享</text>
+</svg>
