@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">永续合约的保证金风险流程</title>
+  <desc id="desc">杠杆放大名义仓位，反向价格变动会消耗保证金，低于维护要求可能触发强平。</desc>
+  <rect width="1200" height="620" rx="36" fill="#f4f8f7"/>
+  <text x="70" y="88" fill="#173b3b" font-family="Arial,sans-serif" font-size="34" font-weight="700">保证金仓位面临的风险链条</text>
+  <text x="70" y="130" fill="#587070" font-family="Arial,sans-serif" font-size="20">价格反向波动时，杠杆仓位可能快速失去缓冲</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="75" y="230" width="235" height="150" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="192" y="284" fill="#173b3b" font-size="23" font-weight="700">保证金</text><text x="192" y="326" fill="#587070" font-size="18">作为仓位抵押</text>
+    <rect x="365" y="230" width="235" height="150" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="482" y="284" fill="#173b3b" font-size="23" font-weight="700">杠杆放大仓位</text><text x="482" y="326" fill="#587070" font-size="18">盈亏变化更敏感</text>
+    <rect x="655" y="230" width="235" height="150" rx="24" fill="#fff" stroke="#d9bba5" stroke-width="3"/><text x="772" y="284" fill="#8a583f" font-size="23" font-weight="700">反向价格变动</text><text x="772" y="326" fill="#765e50" font-size="18">可用缓冲不断减少</text>
+    <rect x="945" y="230" width="200" height="150" rx="24" fill="#f7e9e5" stroke="#d9bba5" stroke-width="3"/><text x="1045" y="284" fill="#8c463a" font-size="23" font-weight="700">强平风险</text><text x="1045" y="326" fill="#765e50" font-size="18">按规则处置仓位</text>
+  </g>
+  <g fill="none" stroke="#c7775e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M315 305h42m-16-16 16 16-16 16"/><path d="M605 305h42m-16-16 16 16-16 16"/><path d="M895 305h42m-16-16 16 16-16 16"/></g>
+  <rect x="75" y="435" width="1070" height="90" rx="20" fill="#e8f2f1"/>
+  <text x="610" y="475" fill="#315b59" font-size="20">实际风险还取决于资金费、标记价格、维护保证金、流动性与平台规则。</text>
+  <text x="610" y="505" fill="#315b59" font-size="20" font-weight="700">止损委托不能保证避开跳空、滑点、延迟或强制减仓。</text>
+</svg>
