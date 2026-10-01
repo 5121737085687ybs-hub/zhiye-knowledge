@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">区块链浏览器核验流程</title>
+  <desc id="desc">在正确网络中查询交易哈希，核验状态、地址、资产变化和网络费用。</desc>
+  <rect width="1200" height="620" rx="36" fill="#f4f8f7"/>
+  <text x="70" y="88" fill="#173b3b" font-family="Arial,sans-serif" font-size="34" font-weight="700">查一笔链上交易：五项信息</text>
+  <text x="70" y="130" fill="#587070" font-family="Arial,sans-serif" font-size="20">浏览器展示公开账本，不负责验证项目承诺或现实身份</text>
+  <rect x="70" y="180" width="1060" height="90" rx="20" fill="#173b3b"/>
+  <text x="110" y="235" fill="#b7ded9" font-family="Arial,sans-serif" font-size="18">输入</text>
+  <text x="205" y="235" fill="#fff" font-family="monospace" font-size="22">交易哈希 / 钱包地址 / 合约地址</text>
+  <g font-family="Arial,sans-serif">
+    <g><rect x="70" y="325" width="195" height="145" rx="20" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="167" y="375" text-anchor="middle" fill="#176c67" font-size="20" font-weight="700">01 网络</text><text x="167" y="414" text-anchor="middle" fill="#587070" font-size="16">选择正确链</text></g>
+    <g><rect x="285" y="325" width="195" height="145" rx="20" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="382" y="375" text-anchor="middle" fill="#176c67" font-size="20" font-weight="700">02 状态</text><text x="382" y="414" text-anchor="middle" fill="#587070" font-size="16">成功 / 失败 / 待确认</text></g>
+    <g><rect x="500" y="325" width="195" height="145" rx="20" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="597" y="375" text-anchor="middle" fill="#176c67" font-size="20" font-weight="700">03 地址</text><text x="597" y="414" text-anchor="middle" fill="#587070" font-size="16">核对发送与接收方</text></g>
+    <g><rect x="715" y="325" width="195" height="145" rx="20" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="812" y="375" text-anchor="middle" fill="#176c67" font-size="20" font-weight="700">04 资产变化</text><text x="812" y="414" text-anchor="middle" fill="#587070" font-size="16">币种与数量</text></g>
+    <g><rect x="930" y="325" width="195" height="145" rx="20" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="1027" y="375" text-anchor="middle" fill="#176c67" font-size="20" font-weight="700">05 网络费</text><text x="1027" y="414" text-anchor="middle" fill="#587070" font-size="16">费用与区块时间</text></g>
+  </g>
+  <rect x="70" y="510" width="1060" height="62" rx="18" fill="#e8f2f1"/>
+  <text x="600" y="549" text-anchor="middle" fill="#315b59" font-family="Arial,sans-serif" font-size="19">公开记录能帮助核对状态，但不代表身份已核验、服务可靠或资产安全</text>
+</svg>
