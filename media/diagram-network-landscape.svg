@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">区块链网络的设计方向</title><desc id="desc">不同网络在价值转移、可编程应用、支付生态和隐私等目标上各有侧重。</desc>
+  <rect width="1200" height="630" rx="36" fill="#f4f4ee"/><text x="72" y="92" fill="#315348" font-family="sans-serif" font-size="22" letter-spacing="4">BLOCKCHAIN LANDSCAPE · DIFFERENT GOALS</text><text x="72" y="158" fill="#203d34" font-family="sans-serif" font-size="46" font-weight="700">同属区块链，设计目标各不相同</text>
+  <g font-family="sans-serif"><rect x="76" y="220" width="480" height="112" rx="22" fill="#e1ebe3"/><text x="112" y="263" fill="#315348" font-size="22" font-weight="700">价值转移与稀缺资产网络</text><text x="112" y="302" fill="#41574c" font-size="20">Bitcoin · Litecoin · Bitcoin Cash · Dogecoin</text>
+  <rect x="644" y="220" width="480" height="112" rx="22" fill="#eee7d7"/><text x="680" y="263" fill="#806a32" font-size="22" font-weight="700">可编程应用与合约生态</text><text x="680" y="302" fill="#514c3d" font-size="20">Ethereum · Solana · Avalanche · Cardano</text>
+  <rect x="76" y="360" width="480" height="112" rx="22" fill="#eee7d7"/><text x="112" y="403" fill="#806a32" font-size="22" font-weight="700">支付、资产发行与生态集成</text><text x="112" y="442" fill="#514c3d" font-size="20">XRP Ledger · TRON · TON</text>
+  <rect x="644" y="360" width="480" height="112" rx="22" fill="#e1ebe3"/><text x="680" y="403" fill="#315348" font-size="22" font-weight="700">隐私设计方向</text><text x="680" y="442" fill="#41574c" font-size="20">Monero 等注重交易隐私的网络</text></g>
+  <text x="72" y="530" fill="#43584f" font-family="sans-serif" font-size="21">同名资产也可能在不同链上；转账前核对网络与合约。</text><text x="72" y="580" fill="#839087" font-family="sans-serif" font-size="16">知页 · 一般知识分享</text>
+</svg>
