@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">跨链桥工作流程</title>
+  <desc id="desc">源链上的资产或消息经桥接验证后，在目的链登记对应状态或映射资产。</desc>
+  <rect width="1200" height="620" rx="36" fill="#f4f8f7"/>
+  <text x="70" y="88" fill="#173b3b" font-family="Arial,sans-serif" font-size="34" font-weight="700">一次跨链转移的概念流程</text>
+  <text x="70" y="130" fill="#587070" font-family="Arial,sans-serif" font-size="20">不同桥的托管和验证模型可能完全不同</text>
+  <rect x="70" y="205" width="300" height="245" rx="28" fill="#fff" stroke="#a8ceca" stroke-width="3"/>
+  <text x="220" y="262" text-anchor="middle" fill="#176c67" font-family="Arial,sans-serif" font-size="24" font-weight="700">源网络</text>
+  <text x="220" y="320" text-anchor="middle" fill="#173b3b" font-family="Arial,sans-serif" font-size="20">发起并确认交易</text>
+  <text x="220" y="366" text-anchor="middle" fill="#587070" font-family="Arial,sans-serif" font-size="17">锁定 / 转移 / 发送消息</text>
+  <rect x="450" y="205" width="300" height="245" rx="28" fill="#e8f2f1" stroke="#a8ceca" stroke-width="3"/>
+  <text x="600" y="262" text-anchor="middle" fill="#176c67" font-family="Arial,sans-serif" font-size="24" font-weight="700">桥接验证</text>
+  <text x="600" y="320" text-anchor="middle" fill="#173b3b" font-family="Arial,sans-serif" font-size="20">验证消息与状态</text>
+  <text x="600" y="366" text-anchor="middle" fill="#587070" font-family="Arial,sans-serif" font-size="17">合约 · 验证者 · 密钥模型</text>
+  <rect x="830" y="205" width="300" height="245" rx="28" fill="#fff" stroke="#d9bba5" stroke-width="3"/>
+  <text x="980" y="262" text-anchor="middle" fill="#8a583f" font-family="Arial,sans-serif" font-size="24" font-weight="700">目的网络</text>
+  <text x="980" y="320" text-anchor="middle" fill="#173b3b" font-family="Arial,sans-serif" font-size="20">登记对应资产状态</text>
+  <text x="980" y="366" text-anchor="middle" fill="#765e50" font-family="Arial,sans-serif" font-size="17">可能是映射或包装资产</text>
+  <g fill="none" stroke="#2c9187" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M380 328h56m-22-20 22 20-22 20"/><path d="M760 328h56m-22-20 22 20-22 20"/></g>
+  <rect x="70" y="495" width="1060" height="65" rx="18" fill="#f7e9e5"/><text x="600" y="536" text-anchor="middle" fill="#8c463a" font-family="Arial,sans-serif" font-size="19" font-weight="700">验证模型、合约权限、流动性和返回路线共同决定跨链风险</text>
+</svg>
