@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">股票永续合约期权结构</title><desc id="desc">底层是股票永续合约，上层期权有到期日并以 USDT 结算。</desc>
+<rect width="1200" height="650" rx="30" fill="#f5f2e9"/><text x="58" y="70" fill="#597267" font-family="sans-serif" font-size="19" letter-spacing="3">PRODUCT STRUCTURE</text><text x="58" y="126" fill="#203d34" font-family="sans-serif" font-size="38" font-weight="700">“永续”在底层，期权仍然会到期</text>
+<g font-family="sans-serif">
+<rect x="70" y="190" width="285" height="180" rx="26" fill="#e1ebe3"/><text x="100" y="238" fill="#315348" font-size="24" font-weight="700">股票价格参考</text><text x="100" y="284" fill="#53645b" font-size="19">例如 NVDA、TSLA</text><path d="M105 330l45-28 38 12 42-48 46 25 42-51" fill="none" stroke="#789483" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="458" y="190" width="285" height="180" rx="26" fill="#eee7d7"/><text x="488" y="238" fill="#6f6241" font-size="24" font-weight="700">股票永续合约</text><text x="488" y="284" fill="#746c58" font-size="18">Bybit TradFi 永续合约</text><circle cx="600" cy="329" r="26" fill="#cbbd9f"/><text x="600" y="337" fill="#fffdf8" font-size="23" font-weight="700" text-anchor="middle">P</text>
+<rect x="845" y="190" width="285" height="180" rx="26" fill="#f1e2d9"/><text x="875" y="238" fill="#885f4b" font-size="24" font-weight="700">期权合约</text><text x="875" y="284" fill="#826b5d" font-size="18">有到期日 · 欧式行权</text><text x="875" y="327" fill="#826b5d" font-size="18">价内自动以 USDT 结算</text>
+</g>
+<path d="M366 280h73m-15-15 15 15-15 15M753 280h73m-15-15 15 15-15 15" fill="none" stroke="#597267" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="70" y="432" width="1060" height="150" rx="24" fill="#fffdf8"/><text x="104" y="482" fill="#203d34" font-family="sans-serif" font-size="23" font-weight="700">需分清的两个概念</text><text x="104" y="526" fill="#53645b" font-family="sans-serif" font-size="19">“永续”描述底层股票永续合约；上层期权有到期日、剩余期限与时间价值。</text><text x="104" y="558" fill="#885f4b" font-family="sans-serif" font-size="18">买入期权不等于持有股票，也不会因此取得股息或投票权。</text></svg>
