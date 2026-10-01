@@ -32,7 +32,7 @@ function filteredPosts() {
 }
 function coverMarkup(post, featured = false) {
   const cover = relativeMedia(post.cover || "media/cover-notes.svg");
-  return `<div class="${featured ? "featured-cover" : "post-cover"}"><img src="${escapeHTML(cover)}" alt="" loading="lazy"><span class="cover-label">${escapeHTML(post.type || "分享")}　/　${escapeHTML(post.category || "随笔")}</span></div>`;
+  return `<div class="${featured ? "featured-cover" : "post-cover"}"><img src="${escapeHTML(cover)}" alt="" loading="${featured ? "eager" : "lazy"}"><span class="cover-label">${escapeHTML(post.type || "分享")}　/　${escapeHTML(post.category || "随笔")}</span></div>`;
 }
 function cardMarkup(post, featured = false) {
   const title = escapeHTML(post.title || "未命名分享");
