@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">代币用途类别图</title><desc id="desc">代币可能用于支付网络资源、协议功能、治理投票、数据服务、资产凭证或社群互动。</desc>
+  <rect width="1200" height="630" rx="36" fill="#f5f2e9"/><text x="72" y="92" fill="#315348" font-family="sans-serif" font-size="22" letter-spacing="4">TOKEN PURPOSES · ASK WHAT IT DOES</text><text x="72" y="158" fill="#203d34" font-family="sans-serif" font-size="46" font-weight="700">分类用途，不能替代权利核对</text>
+  <g font-family="sans-serif" text-anchor="middle"><rect x="70" y="228" width="330" height="104" rx="22" fill="#e1ebe3"/><text x="235" y="270" fill="#315348" font-size="22" font-weight="700">网络资源</text><text x="235" y="306" fill="#41574c" font-size="18">Gas / 共识</text>
+  <rect x="435" y="228" width="330" height="104" rx="22" fill="#eee7d7"/><text x="600" y="270" fill="#806a32" font-size="22" font-weight="700">协议功能</text><text x="600" y="306" fill="#514c3d" font-size="18">服务 / 抵押 / 激励</text>
+  <rect x="800" y="228" width="330" height="104" rx="22" fill="#e1ebe3"/><text x="965" y="270" fill="#315348" font-size="22" font-weight="700">治理参与</text><text x="965" y="306" fill="#41574c" font-size="18">提案 / 参数投票</text>
+  <rect x="70" y="360" width="330" height="104" rx="22" fill="#eee7d7"/><text x="235" y="402" fill="#806a32" font-size="22" font-weight="700">数据服务</text><text x="235" y="438" fill="#514c3d" font-size="18">预言机 / 网络协作</text>
+  <rect x="435" y="360" width="330" height="104" rx="22" fill="#e1ebe3"/><text x="600" y="402" fill="#315348" font-size="22" font-weight="700">资产凭证</text><text x="600" y="438" fill="#41574c" font-size="18">储备 / 债权 / 赎回</text>
+  <rect x="800" y="360" width="330" height="104" rx="22" fill="#eee7d7"/><text x="965" y="402" fill="#806a32" font-size="22" font-weight="700">社区资产</text><text x="965" y="438" fill="#514c3d" font-size="18">叙事 / 参与 / 流动性</text></g>
+  <text x="72" y="526" fill="#43584f" font-family="sans-serif" font-size="21">“治理”“平台币”或“上链”都不能单独证明法律权利。</text><text x="72" y="580" fill="#839087" font-family="sans-serif" font-size="16">知页 · 一般知识分享</text>
+</svg>
