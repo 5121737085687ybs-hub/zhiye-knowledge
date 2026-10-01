@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+<title id="title">Telegram 聊天、群组与频道的区别</title><desc id="desc">对比云端私聊与端到端加密的秘密聊天，以及群组和频道的用途。</desc>
+<rect width="1200" height="690" rx="30" fill="#f5f2e9"/><text x="58" y="70" fill="#597267" font-family="sans-serif" font-size="19" letter-spacing="3">MESSAGES · GROUPS · CHANNELS</text><text x="58" y="125" fill="#203d34" font-family="sans-serif" font-size="38" font-weight="700">先分清聊天方式，再选择场景</text>
+<g font-family="sans-serif">
+<rect x="58" y="170" width="518" height="205" rx="24" fill="#e1ebe3"/><text x="90" y="215" fill="#315348" font-size="20" font-weight="700">私聊 · 云端聊天</text><text x="90" y="260" fill="#263d35" font-size="26" font-weight="700">多设备同步</text><text x="90" y="300" fill="#62746a" font-size="18">普通私人和群组云端聊天会同步到已登录设备；</text><text x="90" y="329" fill="#62746a" font-size="18">默认采用客户端与服务器之间的加密，不是端到端。</text>
+<rect x="624" y="170" width="518" height="205" rx="24" fill="#eee7d7"/><text x="656" y="215" fill="#846a27" font-size="20" font-weight="700">私聊 · 秘密聊天</text><text x="656" y="260" fill="#403e35" font-size="26" font-weight="700">端到端加密</text><text x="656" y="300" fill="#746c58" font-size="18">秘密聊天与发起设备绑定，不像云端聊天那样</text><text x="656" y="329" fill="#746c58" font-size="18">在所有设备间同步；换设备前要考虑记录可用性。</text>
+<rect x="58" y="403" width="518" height="205" rx="24" fill="#f1e2d9"/><text x="90" y="448" fill="#a36f55" font-size="20" font-weight="700">社群 · 群组</text><text x="90" y="493" fill="#554237" font-size="26" font-weight="700">成员讨论与协作</text><text x="90" y="533" fill="#826b5d" font-size="18">适合成员交流、提问与协作。查看加入来源、</text><text x="90" y="562" fill="#826b5d" font-size="18">管理员身份和群内链接，再决定是否参与。</text>
+<rect x="624" y="403" width="518" height="205" rx="24" fill="#e1ebe3"/><text x="656" y="448" fill="#315348" font-size="20" font-weight="700">社群 · 频道</text><text x="656" y="493" fill="#263d35" font-size="26" font-weight="700">面向订阅者发布</text><text x="656" y="533" fill="#62746a" font-size="18">适合单向公告和内容更新。订阅前核实频道的</text><text x="656" y="562" fill="#62746a" font-size="18">官方入口，谨慎对待仿冒公告与私信客服。</text>
+</g>
+<text x="58" y="649" fill="#53645b" font-family="sans-serif" font-size="17">端到端加密只解决部分传输与服务端可见性问题，不防设备被他人解锁、截图或转发。</text>
+</svg>
