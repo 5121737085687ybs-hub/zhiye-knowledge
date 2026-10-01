@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">自托管钱包安全顺序</title>
+  <desc id="desc">安全使用钱包需要离线备份、确认网络和地址、阅读签名内容、先做小额测试。</desc>
+  <rect width="1200" height="620" rx="36" fill="#f4f8f7"/>
+  <text x="70" y="88" fill="#173b3b" font-family="Arial,sans-serif" font-size="34" font-weight="700">自托管钱包的四步安全习惯</text>
+  <text x="70" y="130" fill="#587070" font-family="Arial,sans-serif" font-size="20">助记词和私钥只由你自己保管</text>
+  <g font-family="Arial,sans-serif">
+    <g><rect x="70" y="205" width="500" height="130" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><circle cx="132" cy="270" r="30" fill="#d8efeb"/><text x="132" y="279" text-anchor="middle" fill="#176c67" font-size="24" font-weight="700">1</text><text x="185" y="258" fill="#173b3b" font-size="25" font-weight="700">离线备份</text><text x="185" y="294" fill="#587070" font-size="18">不截图、不发给客服、不输入陌生网页</text></g>
+    <g><rect x="630" y="205" width="500" height="130" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><circle cx="692" cy="270" r="30" fill="#d8efeb"/><text x="692" y="279" text-anchor="middle" fill="#176c67" font-size="24" font-weight="700">2</text><text x="745" y="258" fill="#173b3b" font-size="25" font-weight="700">核对网络与地址</text><text x="745" y="294" fill="#587070" font-size="18">检查币种、完整地址及备注码</text></g>
+    <g><rect x="70" y="385" width="500" height="130" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><circle cx="132" cy="450" r="30" fill="#d8efeb"/><text x="132" y="459" text-anchor="middle" fill="#176c67" font-size="24" font-weight="700">3</text><text x="185" y="438" fill="#173b3b" font-size="25" font-weight="700">阅读签名请求</text><text x="185" y="474" fill="#587070" font-size="18">确认授权对象、额度和交易内容</text></g>
+    <g><rect x="630" y="385" width="500" height="130" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><circle cx="692" cy="450" r="30" fill="#d8efeb"/><text x="692" y="459" text-anchor="middle" fill="#176c67" font-size="24" font-weight="700">4</text><text x="745" y="438" fill="#173b3b" font-size="25" font-weight="700">先做小额测试</text><text x="745" y="474" fill="#587070" font-size="18">首次转账时用可承受的小额验证</text></g>
+  </g>
+  <rect x="70" y="548" width="1060" height="38" rx="19" fill="#f7e9e5"/>
+  <text x="600" y="575" text-anchor="middle" fill="#8c463a" font-family="Arial,sans-serif" font-size="18" font-weight="700">任何人索要助记词、私钥或验证码，都应立即停止沟通</text>
+</svg>
