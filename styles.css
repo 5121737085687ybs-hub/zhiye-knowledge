@@ -30,3 +30,55 @@
 .search-box kbd{font-size:10px}
 @media(max-width:850px){.library-tools{gap:16px}.filter-group{flex-direction:column;gap:4px}.filter-caption{width:auto;padding:0;font-size:14px}.search-box{flex-basis:auto;width:100%}}
 @media(max-width:600px){.filter-list{gap:7px}.filter{min-height:40px;padding:8px 11px;font-size:14px}.filter-caption{font-size:14px}.search-box{min-height:42px}.search-box input{font-size:14px}}
+
+
+/* Comfortable reading scale */
+.topline{font-size:11px}
+.main-nav{font-size:14px}
+.eyebrow{font-size:11px}
+.hero-text{font-size:15px}
+.round-link{font-size:14px}
+.hero-aside{font-size:11px}
+.hero-index{font-size:10px}
+.art-note span{font-size:9px}
+.art-index{font-size:9px}
+.format-number{font-size:10px}
+.format-name{font-size:14px}
+.format-desc{font-size:12px;line-height:1.55}
+.section-aside{font-size:13px}
+.meta-line{font-size:10px;letter-spacing:.03em}
+.cover-label{font-size:9px}
+.featured-copy>p{font-size:14px;line-height:1.8}
+.read-more{font-size:12px}
+.post-copy .meta-line{font-size:10px}
+.post-copy p{font-size:12px;line-height:1.75}
+.card-bottom{font-size:11px}
+.library-foot{font-size:10px}
+.about-copy>p:not(.eyebrow):not(.about-signature){font-size:13px}
+.about-signature{font-size:11px}
+.about-card>span:last-child{font-size:9px}
+.footer-inner>p{font-size:11px}
+.footer-copy{font-size:10px}
+.button-dark{font-size:12px}
+.dialog-excerpt{font-size:14px}
+.dialog-prose{font-size:16px}
+.dialog-footer{font-size:10px}
+@media(max-width:850px){.section-aside{font-size:12px}}
+@media(max-width:600px){
+  .topline{font-size:9px}
+  .hero-text{font-size:14px}
+  .hero-index{font-size:9px}
+  .section-aside{font-size:12px}
+  .featured-copy>p{font-size:13px}
+  .post-copy p{font-size:12px}
+  .post-copy .meta-line{font-size:9px}
+  .card-bottom{font-size:10px}
+  .about-copy>p:not(.eyebrow):not(.about-signature){font-size:12px}
+  .about-card>span:last-child{font-size:8px}
+  .footer-inner>p{font-size:10px}
+  .footer-copy{font-size:9px}
+  .button-dark{font-size:11px}
+  .dialog-excerpt{font-size:13px}
+  .dialog-prose{font-size:14px}
+}
+
