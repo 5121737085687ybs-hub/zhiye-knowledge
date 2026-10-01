@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">交易平台储备披露的核对范围</title><desc id="desc">分别查看链上资产、用户负债、日期和核验方法，并理解报告未覆盖的风险。</desc>
+  <rect width="1200" height="630" rx="36" fill="#f3f4ef"/><text x="72" y="92" fill="#315348" font-family="sans-serif" font-size="22" letter-spacing="4">PROOF OF RESERVES · WHAT TO CHECK</text><text x="72" y="158" fill="#203d34" font-family="sans-serif" font-size="46" font-weight="700">一份储备报告，先读清它的边界</text>
+  <g font-family="sans-serif"><rect x="72" y="220" width="486" height="116" rx="22" fill="#e2ece4"/><text x="104" y="264" fill="#315348" font-size="22" font-weight="700">报告披露的部分</text><text x="104" y="304" fill="#31453c" font-size="20">链上资产 · 用户余额集合 · 核验日期 · 计算方法</text>
+  <rect x="642" y="220" width="486" height="116" rx="22" fill="#eee7d7"/><text x="674" y="264" fill="#7a632d" font-size="22" font-weight="700">可能仍未回答</text><text x="674" y="304" fill="#4c493d" font-size="20">全部负债 · 表外义务 · 托管控制 · 未来兑付能力</text></g>
+  <g stroke="#9ca99f" stroke-width="3"><path d="M315 336v54h280"/><path d="M885 336v54H605"/></g><rect x="390" y="374" width="420" height="95" rx="24" fill="#315348"/><text x="600" y="414" text-anchor="middle" fill="#fffdf7" font-family="sans-serif" font-size="23">把报告当作一项有限证据</text><text x="600" y="447" text-anchor="middle" fill="#dce8df" font-family="sans-serif" font-size="17">再读条款、托管说明与审查限制</text>
+  <text x="72" y="536" fill="#43584f" font-family="sans-serif" font-size="21">某时点资产证明 ≠ 所有负债完整披露 ≠ 未来必然兑付</text><text x="72" y="580" fill="#839087" font-family="sans-serif" font-size="16">知页 · 一般知识分享</text>
+</svg>
