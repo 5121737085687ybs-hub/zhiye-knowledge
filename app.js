@@ -1,5 +1,5 @@
 const DATA = { site: "./data/site.json", posts: "./data/posts.json" };
-const state = { site: {}, posts: [], filter: "全部", query: "" };
+const state = { site: {}, posts: [], filter: "全部", categoryFilter: "全部", query: "" };
 const $ = (selector, root = document) => root.querySelector(selector);
 const escapeHTML = value => String(value ?? "").replace(/[&<>"']/g, char => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[char]));
 const safeURL = value => { try { const url = new URL(value, location.href); return ["http:", "https:"].includes(url.protocol) ? url.href : ""; } catch { return ""; } };
@@ -24,7 +24,9 @@ function setSite(site) {
 }
 function filteredPosts() {
   const query = state.query.trim().toLocaleLowerCase();
-  return state.posts.filter(post => state.filter === "全部" || post.type === state.filter)
+  return state.posts
+    .filter(post => state.filter === "全部" || post.type === state.filter)
+    .filter(post => state.categoryFilter === "全部" || post.category === state.categoryFilter)
     .filter(post => !query || [post.title, post.category, post.excerpt, post.body].join(" ").toLocaleLowerCase().includes(query))
     .sort((a,b) => String(b.date || "").localeCompare(String(a.date || "")));
 }
@@ -42,7 +44,17 @@ function cardMarkup(post, featured = false) {
     <div class="meta-line"><span>${date}</span><i></i><span>${escapeHTML(post.category || "知识分享")}</span></div>
     <h3>${title}</h3><p>${excerpt}</p><span class="read-more">${label}<b aria-hidden="true">→</b></span></div></article>`;
 }
+function renderCategories() {
+  const categories = [...new Set(state.posts.map(post => String(post.category || "").trim()).filter(Boolean))];
+  const options = ["全部", ...categories];
+  $("#category-filters").innerHTML = options.map(category => {
+    const active = category === state.categoryFilter;
+    const count = category === "全部" ? state.posts.length : state.posts.filter(post => post.category === category).length;
+    return `<button class="filter${active ? " is-active" : ""}" type="button" data-category="${escapeHTML(category)}" aria-pressed="${String(active)}">${escapeHTML(category)} <span>${String(count).padStart(2,"0")}</span></button>`;
+  }).join("");
+}
 function renderLibrary() {
+  renderCategories();
   const posts = filteredPosts();
   const selected = state.filter === "全部" && !state.query ? posts : [];
   const featured = selected.find(post => post.featured) || selected[0];
@@ -51,7 +63,7 @@ function renderLibrary() {
   $("#post-grid").innerHTML = rest.map(post => cardMarkup(post)).join("");
   $("#empty-state").hidden = posts.length > 0;
   $("#post-count").textContent = `${String(posts.length).padStart(2,"0")} 条分享 · 持续更新中`;
-  document.querySelectorAll(".filter").forEach(button => {
+  document.querySelectorAll("#filters .filter").forEach(button => {
     const active = button.dataset.filter === state.filter;
     button.classList.toggle("is-active", active);
     button.setAttribute("aria-pressed", String(active));
@@ -135,6 +147,12 @@ async function loadData() {
 document.addEventListener("DOMContentLoaded", () => {
   $("#year").textContent = new Date().getFullYear();
   loadData();
+  $("#category-filters").addEventListener("click", event => {
+    const button = event.target.closest("[data-category]");
+    if (!button) return;
+    state.categoryFilter = button.dataset.category;
+    renderLibrary();
+  });
   $("#filters").addEventListener("click", event => {
     const button = event.target.closest("[data-filter]");
     if (!button) return;
