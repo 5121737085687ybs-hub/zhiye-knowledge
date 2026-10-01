@@ -14,3 +14,19 @@
 .filter-group{display:flex;align-items:center;gap:12px}
 .filter-caption{width:58px;flex:0 0 auto;color:#999b91;font-size:9px;letter-spacing:.06em}
 @media(max-width:850px){.filter-groups{width:100%}.filter-group{align-items:flex-start;flex-direction:column;gap:5px}.filter-caption{width:auto}.filter-list{gap:16px;flex-wrap:wrap}}
+
+/* Clear, touch-friendly library filters */
+.library-tools{gap:22px;align-items:flex-start}
+.filter-groups{flex:1;min-width:0;gap:12px}
+.filter-group{align-items:flex-start;gap:14px}
+.filter-caption{width:76px;padding:8px 0;color:#62695c;font-size:13px;font-weight:650;line-height:1.45;letter-spacing:.02em}
+.filter-list{gap:8px 9px;flex-wrap:wrap}
+.filter{min-height:38px;padding:7px 11px;border:1px solid transparent;border-radius:999px;color:#5d6258;font-size:14px;font-weight:500;line-height:1.35;white-space:nowrap}
+.filter:hover,.filter.is-active{background:#e2e7d9;border-color:#cbd2c3;color:var(--ink)}
+.filter.is-active{font-weight:650}
+.filter span{margin-left:5px;color:#a56d4c;font-size:12px;font-variant-numeric:tabular-nums}
+.search-box{flex:0 0 250px;min-height:42px}
+.search-box input{font-size:13px}
+.search-box kbd{font-size:10px}
+@media(max-width:850px){.library-tools{gap:16px}.filter-group{flex-direction:column;gap:4px}.filter-caption{width:auto;padding:0;font-size:14px}.search-box{flex-basis:auto;width:100%}}
+@media(max-width:600px){.filter-list{gap:7px}.filter{min-height:40px;padding:8px 11px;font-size:14px}.filter-caption{font-size:14px}.search-box{min-height:42px}.search-box input{font-size:14px}}
