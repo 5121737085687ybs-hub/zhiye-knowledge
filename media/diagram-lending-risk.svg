@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">DeFi借贷抵押与清算风险</title>
+  <desc id="desc">抵押品价值、债务、利息和预言机价格共同影响借贷仓位健康状况。</desc>
+  <rect width="1200" height="620" rx="36" fill="#f4f8f7"/>
+  <text x="70" y="88" fill="#173b3b" font-family="Arial,sans-serif" font-size="34" font-weight="700">链上借贷仓位由哪些因素影响</text>
+  <text x="70" y="130" fill="#587070" font-family="Arial,sans-serif" font-size="20">抵押品和债务会随市场与协议参数持续变化</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="75" y="220" width="250" height="145" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="200" y="274" fill="#176c67" font-size="22" font-weight="700">抵押品价值</text><text x="200" y="316" fill="#587070" font-size="18">受市场价格影响</text>
+    <rect x="75" y="400" width="250" height="115" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><text x="200" y="448" fill="#176c67" font-size="22" font-weight="700">债务与利息</text><text x="200" y="483" fill="#587070" font-size="17">可能随时间累积</text>
+    <rect x="440" y="285" width="270" height="165" rx="28" fill="#e8f2f1" stroke="#a8ceca" stroke-width="3"/><text x="575" y="342" fill="#173b3b" font-size="24" font-weight="700">健康状态</text><text x="575" y="382" fill="#587070" font-size="18">LTV · 健康因子 · 阈值</text>
+    <rect x="825" y="220" width="300" height="130" rx="24" fill="#fff" stroke="#d9bba5" stroke-width="3"/><text x="975" y="272" fill="#8a583f" font-size="22" font-weight="700">预言机与协议规则</text><text x="975" y="311" fill="#765e50" font-size="17">价格数据 · 参数 · 权限</text>
+    <rect x="825" y="395" width="300" height="120" rx="24" fill="#f7e9e5" stroke="#d9bba5" stroke-width="3"/><text x="975" y="445" fill="#8c463a" font-size="22" font-weight="700">触发清算条件</text><text x="975" y="481" fill="#765e50" font-size="17">可能处置部分抵押品</text>
+  </g>
+  <g fill="none" stroke="#2c9187" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M330 290h75l25 48"/><path d="M330 457h75l25-48"/><path d="M715 330h95v-45"/><path d="M715 405h95v48"/><path d="M975 355v32"/></g>
+</svg>
