@@ -81,4 +81,8 @@
   .dialog-excerpt{font-size:13px}
   .dialog-prose{font-size:14px}
 }
-
+.dialog-prose .table-wrap{max-width:100%;overflow-x:auto;margin:24px 0 30px;border:1px solid #e1e2d9;background:#fff}
+.dialog-prose table{width:100%;min-width:560px;border-collapse:collapse;font:13px/1.75 var(--sans);color:#484d44}
+.dialog-prose th,.dialog-prose td{padding:11px 13px;border-bottom:1px solid #e5e6df;text-align:left;vertical-align:top}
+.dialog-prose th{background:#eef0e6;color:var(--green-dark);font-weight:650}
+.dialog-prose tr:last-child td{border-bottom:0}
