@@ -82,7 +82,25 @@ function markdownToHTML(markdown) {
   const output = []; let paragraph = []; let list = null;
   const flushParagraph = () => { if (paragraph.length) { output.push(`<p>${paragraph.map(inlineMarkdown).join("<br>")}</p>`); paragraph = []; } };
   const closeList = () => { if (list) { output.push(`</${list}>`); list = null; } };
-  for (const line of lines) {
+  const tableCells = line => line.trim().replace(/^\|/,"").replace(/\|$/,"").split("|").map(cell => cell.trim());
+  for (let index = 0; index < lines.length; index++) {
+    const line = lines[index];
+    const next = lines[index + 1] || "";
+    const headers = tableCells(line);
+    const separators = tableCells(next);
+    if (line.includes("|") && next.includes("|") && headers.length === separators.length && separators.every(cell => /^:?-{3,}:?$/.test(cell))) {
+      flushParagraph(); closeList();
+      output.push(`<div class="table-wrap"><table><thead><tr>${headers.map(cell => `<th scope="col">${inlineMarkdown(cell)}</th>`).join("")}</tr></thead><tbody>`);
+      index += 2;
+      while (index < lines.length && lines[index].includes("|")) {
+        const cells = tableCells(lines[index]);
+        output.push(`<tr>${headers.map((_, cellIndex) => `<td>${inlineMarkdown(cells[cellIndex] || "")}</td>`).join("")}</tr>`);
+        index++;
+      }
+      output.push("</tbody></table></div>");
+      index--;
+      continue;
+    }
     const heading = /^(#{2,4})\s+(.+)$/.exec(line);
     const item = /^\s*[-*+]\s+(.+)$/.exec(line);
     const quote = /^>\s?(.*)$/.exec(line);
