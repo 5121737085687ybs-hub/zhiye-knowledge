@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">智能合约运行流程</title>
+  <desc id="desc">合约从部署开始，经钱包签署调用，由网络节点校验执行并更新状态。</desc>
+  <rect width="1200" height="620" rx="36" fill="#f4f8f7"/>
+  <text x="70" y="88" fill="#173b3b" font-family="Arial,sans-serif" font-size="34" font-weight="700">一笔合约交互如何发生</text>
+  <text x="70" y="130" fill="#587070" font-family="Arial,sans-serif" font-size="20">每一步都要核对权限、网络和交易内容</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <g><rect x="70" y="225" width="230" height="190" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><circle cx="185" cy="280" r="30" fill="#d8efeb"/><text x="185" y="289" fill="#176c67" font-size="24" font-weight="700">1</text><text x="185" y="345" fill="#173b3b" font-size="25" font-weight="700">部署代码</text><text x="185" y="380" fill="#587070" font-size="18">生成合约地址</text></g>
+    <g><rect x="350" y="225" width="230" height="190" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><circle cx="465" cy="280" r="30" fill="#d8efeb"/><text x="465" y="289" fill="#176c67" font-size="24" font-weight="700">2</text><text x="465" y="345" fill="#173b3b" font-size="25" font-weight="700">钱包签名</text><text x="465" y="380" fill="#587070" font-size="18">授权具体调用</text></g>
+    <g><rect x="630" y="225" width="230" height="190" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><circle cx="745" cy="280" r="30" fill="#d8efeb"/><text x="745" y="289" fill="#176c67" font-size="24" font-weight="700">3</text><text x="745" y="345" fill="#173b3b" font-size="25" font-weight="700">网络校验</text><text x="745" y="380" fill="#587070" font-size="18">节点执行规则</text></g>
+    <g><rect x="910" y="225" width="230" height="190" rx="24" fill="#fff" stroke="#a8ceca" stroke-width="3"/><circle cx="1025" cy="280" r="30" fill="#d8efeb"/><text x="1025" y="289" fill="#176c67" font-size="24" font-weight="700">4</text><text x="1025" y="345" fill="#173b3b" font-size="25" font-weight="700">状态更新</text><text x="1025" y="380" fill="#587070" font-size="18">结果写入账本</text></g>
+  </g>
+  <g fill="none" stroke="#2c9187" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M305 320h32m-12-12 12 12-12 12"/><path d="M585 320h32m-12-12 12 12-12 12"/><path d="M865 320h32m-12-12 12 12-12 12"/></g>
+  <rect x="70" y="475" width="1070" height="80" rx="18" fill="#e8f2f1"/>
+  <text x="605" y="525" text-anchor="middle" fill="#315b59" font-family="Arial,sans-serif" font-size="21">签名前先核对：网站 · 网络 · 合约地址 · 资产权限 · 交易参数</text>
+</svg>
