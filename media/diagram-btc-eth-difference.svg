@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">比特币网络与以太坊网络概念对比</title>
+  <desc id="desc">比较两种区块链的设计取向、原生资产和主要网络费用。</desc>
+  <rect width="1200" height="620" rx="36" fill="#f4f8f7"/>
+  <text x="70" y="88" fill="#173b3b" font-family="Arial,sans-serif" font-size="34" font-weight="700">BTC 与 ETH：相似名称，不同网络</text>
+  <text x="70" y="130" fill="#587070" font-family="Arial,sans-serif" font-size="20">这是技术定位对比，不是资产优劣排名</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="70" y="190" width="500" height="335" rx="26" fill="#fff" stroke="#a8ceca" stroke-width="3"/><rect x="630" y="190" width="500" height="335" rx="26" fill="#fff" stroke="#a8ceca" stroke-width="3"/>
+    <text x="115" y="250" fill="#b87925" font-size="30" font-weight="700">比特币网络</text><text x="115" y="302" fill="#173b3b" font-size="21">原生资产：BTC</text><text x="115" y="349" fill="#587070" font-size="19">设计取向：点对点价值转移</text><text x="115" y="393" fill="#587070" font-size="19">费用用途：比特币网络交易</text><text x="115" y="437" fill="#587070" font-size="19">协议特点：有限脚本能力</text><text x="115" y="483" fill="#587070" font-size="17">仍需核对网络、地址与费用</text>
+    <text x="675" y="250" fill="#176c67" font-size="30" font-weight="700">以太坊网络</text><text x="675" y="302" fill="#173b3b" font-size="21">原生资产：ETH</text><text x="675" y="349" fill="#587070" font-size="19">设计取向：可编程合约平台</text><text x="675" y="393" fill="#587070" font-size="19">费用用途：转账与合约执行 Gas</text><text x="675" y="437" fill="#587070" font-size="19">协议特点：运行多类链上应用</text><text x="675" y="483" fill="#587070" font-size="17">代币合约与网络也要逐一核对</text>
+  </g>
+  <path d="M600 215v285" stroke="#cbdad7" stroke-width="3" stroke-dasharray="9 10"/>
+</svg>
