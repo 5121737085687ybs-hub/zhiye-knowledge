@@ -45,7 +45,8 @@ function cardMarkup(post, featured = false) {
     <h3>${title}</h3><p>${excerpt}</p><span class="read-more">${label}<b aria-hidden="true">→</b></span></div></article>`;
 }
 function renderCategories() {
-  const categories = [...new Set(state.posts.map(post => String(post.category || "").trim()).filter(Boolean))];
+  const exchangeCategories = ["币安交易所", "Bybit交易所", "Bitget交易所", "Gate大门交易所"];
+  const categories = [...new Set([...state.posts.map(post => String(post.category || "").trim()).filter(Boolean), ...exchangeCategories])];
   const options = ["全部", ...categories];
   $("#category-filters").innerHTML = options.map(category => {
     const active = category === state.categoryFilter;
