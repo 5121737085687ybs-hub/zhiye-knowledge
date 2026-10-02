@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Bybit标准子账户指南封面</title><desc id="desc">主账户管理多个标准子账户，帮助分开查看交易活动和盈亏。</desc>
+<rect width="1200" height="630" rx="34" fill="#f5f2e9"/><circle cx="930" cy="315" r="250" fill="#e1ebe3"/><circle cx="930" cy="315" r="170" fill="#d4e0d6"/>
+<text x="72" y="82" fill="#597267" font-family="sans-serif" font-size="20" letter-spacing="4">知页 · Bybit账户管理</text>
+<text x="72" y="182" fill="#203d34" font-family="sans-serif" font-size="52" font-weight="700">标准子账户怎么用？</text>
+<text x="74" y="240" fill="#496057" font-family="sans-serif" font-size="28">创建、切换、划转与使用限制</text>
+<g font-family="sans-serif">
+<rect x="770" y="160" width="300" height="104" rx="22" fill="#315348"/><text x="920" y="205" fill="#fffdf8" font-size="24" font-weight="700" text-anchor="middle">主账户</text><text x="920" y="237" fill="#e1ebe3" font-size="16" text-anchor="middle">创建 · 管理 · 对外出入金</text>
+<path d="M920 264v50M920 314H795v28M920 314h125v28" fill="none" stroke="#789483" stroke-width="5" stroke-linecap="round"/>
+<rect x="680" y="342" width="230" height="92" rx="20" fill="#fffdf8" stroke="#315348" stroke-width="3"/><text x="795" y="383" fill="#315348" font-size="21" font-weight="700" text-anchor="middle">标准子账户 A</text><text x="795" y="411" fill="#62746a" font-size="16" text-anchor="middle">独立交易记录</text>
+<rect x="930" y="342" width="230" height="92" rx="20" fill="#eee7d7"/><text x="1045" y="383" fill="#6f6241" font-size="21" font-weight="700" text-anchor="middle">标准子账户 B</text><text x="1045" y="411" fill="#746c58" font-size="16" text-anchor="middle">独立盈亏查看</text>
+</g><text x="72" y="548" fill="#777a70" font-family="sans-serif" font-size="18">分开核算有助管理，不等于隔绝市场、账户或平台风险</text></svg>
