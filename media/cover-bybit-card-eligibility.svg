@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Bybit Card资格核对指南封面</title><desc id="desc">先确认居住地区和发卡资格，再查看卡种、费用、支持资产与支付钱包。</desc>
+<rect width="1200" height="630" rx="34" fill="#f5f2e9"/><circle cx="960" cy="315" r="250" fill="#e1ebe3"/><circle cx="960" cy="315" r="170" fill="#d4e0d6"/>
+<text x="72" y="82" fill="#597267" font-family="sans-serif" font-size="20" letter-spacing="4">知页 · 支付工具</text>
+<text x="72" y="185" fill="#203d34" font-family="sans-serif" font-size="52" font-weight="700">先确认地区资格</text>
+<text x="74" y="245" fill="#496057" font-family="sans-serif" font-size="29">Bybit Card申请与费用核对</text>
+<g transform="translate(805 170) rotate(-7 160 105)"><rect x="0" y="0" width="330" height="210" rx="25" fill="#fffdf8" stroke="#315348" stroke-width="8"/><rect x="35" y="65" width="58" height="44" rx="9" fill="#eee7d7"/><path d="M35 140h140" stroke="#d4e0d6" stroke-width="14" stroke-linecap="round"/><circle cx="260" cy="155" r="30" fill="#e1ebe3"/><circle cx="288" cy="155" r="30" fill="#f1e2d9" opacity=".9"/><circle cx="310" cy="20" r="17" fill="#c7794b"/></g>
+<rect x="72" y="390" width="205" height="64" rx="18" fill="#e1ebe3"/><text x="174" y="430" text-anchor="middle" fill="#315348" font-family="sans-serif" font-size="22" font-weight="700">查看居住地区</text>
+<rect x="298" y="390" width="205" height="64" rx="18" fill="#eee7d7"/><text x="400" y="430" text-anchor="middle" fill="#6f6241" font-family="sans-serif" font-size="22" font-weight="700">核对卡片条款</text>
+<rect x="524" y="390" width="205" height="64" rx="18" fill="#f1e2d9"/><text x="626" y="430" text-anchor="middle" fill="#885f4b" font-family="sans-serif" font-size="22" font-weight="700">比较实际费用</text>
+<text x="72" y="558" fill="#777a70" font-family="sans-serif" font-size="17" letter-spacing="2">支付方式受支持，不等于满足发卡资格</text></svg>
