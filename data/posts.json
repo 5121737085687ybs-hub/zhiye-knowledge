@@ -1,5 +1,29 @@
 [
   {
+    "id": "bybit-byusdt-guide",
+    "title": "Bybit BYUSDT是什么？收益、UTA保证金与赎回限制",
+    "excerpt": "BYUSDT代表Bybit Flexible Easy Earn中的USDT持仓，可在指定UTA模式下作为保证金；先了解收益资格、转换费用与用途限制。",
+    "cover": "media/cover-bybit-byusdt-guide.svg",
+    "type": "文章",
+    "category": "Bybit交易所",
+    "date": "2026-10-02",
+    "author": "站长",
+    "featured": false,
+    "body": "BYUSDT 是 Bybit Flexible Easy Earn 中符合条件的 USDT 持仓在统一交易账户中的代币化表示。官方说明，该资产可在指定保证金模式下用于交易，同时依据相关 Easy Earn 规则累积收益。它不是可以自由提取到链上的稳定币，也不能简单理解成另一个独立的 USDT。\\n\\n![BYUSDT流程图：Flexible Easy Earn中的USDT转换为UTA内的BYUSDT，在限定保证金模式下使用并可按规则赎回](media/diagram-bybit-byusdt-guide.svg)\\n\\n## BYUSDT 怎样进入 UTA\\n\\nBybit 的[BYUSDT 产品说明](https://www.bybit.com/en/help-center/article/How-to-Trade-While-Earning-Yield-from-Flexible-Easy-Earn-BYUSDT-Token-Explained)指出，用户需要先有符合条件的 USDT Flexible Easy Earn 持仓，再按页面流程转换为 BYUSDT。转换后，BYUSDT 会进入统一交易账户，并按平台当时规则作为保证金。\\n\\n官方列出的适用保证金模式包括全仓与组合保证金；不适用于逐仓。BYUSDT 不能存入、提取、转账或在现货市场交易，也不能用于 Convert。具体账户资格和可用功能以 BYUSDT 页面显示为准。\\n\\n## 收益与奖励要分清\\n\\nBYUSDT 按相关 USDT Flexible Easy Earn 的收益机制累积收益，但平台说明 BYUSDT 可能不具备该 Earn 产品的额外平台奖励 APR，只按适用的基础 APR 计算。APR 会变化，确认转换前应查看页面展示的实际收益、奖励条件和资产占用方式。\\n\\nBYUSDT 与其对应 USDT 的平台记账关系不等于无风险现金等价物。使用 BYUSDT 作为全仓或组合保证金时，交易仓位的损失会影响账户整体保证金状态。抵押品价值、负债和市场价格变化都可能带来清算风险。\\n\\n## 转换和赎回前核对\\n\\n- 确认资金来自符合条件的 USDT Flexible Easy Earn 持仓。\\n- 查看转换与赎回页面显示的服务费用；规则可能因流程而异。\\n- 确认 BYUSDT 当前可用的保证金模式和账户资格。\\n- 阅读收益计算、奖励APR排除条件和收益发放位置。\\n- 理解还款、清算或其他处置时 BYUSDT 怎样按平台规则换回 USDT。\\n\\n台湾读者应以账户内当前资格和实际费用为准。BYUSDT 可能提高资金使用效率，也会把 Earn、保证金和衍生品风险带入同一个账户。本文用于说明产品机制，不是收益承诺或投资建议。\n\n## 我的 Bybit 邀请信息\n\n[通过我的 Bybit 邀请链接查看注册入口](https://www.bybit.com/zh-TW/invite?ref=NPN4KO8)  \n邀请码：**NPN4KO8**\n\n若你通过此链接注册并符合平台条件，我可能获得推荐佣金。注册资格、产品可用性及任何优惠，以 Bybit 当前页面和适用条款为准。"
+  },
+  {
+    "id": "bybit-grid-bot-guide",
+    "title": "Bybit网格机器人怎么选？现货与合约机器人的差异和风险",
+    "excerpt": "网格机器人按设定价格区间分层下单；现货和合约的损失机制不同，超出区间时仍要管理持仓。",
+    "cover": "media/cover-bybit-grid-bot.svg",
+    "type": "文章",
+    "category": "Bybit交易所",
+    "date": "2026-10-02",
+    "author": "站长",
+    "featured": false,
+    "body": "Bybit 网格机器人会依据设定的价格区间和网格数量，自动提交一系列买卖订单。它执行的是预先设定的规则，并不会判断趋势，也不会保证每次买入都能以更高价格卖出。\\n\\n![Bybit网格机器人示意：价格在区间内触发分层委托，区间外可能停止新增挂单并留下待管理仓位](media/diagram-bybit-grid-bot.svg)\\n\\n## 现货网格与合约网格\\n\\n**现货网格**在选定的现货交易对中分层挂单。若价格持续向一个方向移动，机器人可能逐渐累积某一种资产；资产价格下跌时，持仓价值也会下降。\\n\\n**合约网格**还涉及方向、杠杆、保证金和强平机制。Bybit 的[合约网格常见问题](https://www.bybit.com/en/help-center/article/FAQ-Futures-Grid-Bot)说明，超出设定价格区间时，机器人可能暂停新增订单，但已有仓位仍然存在；合约网格仓位可因保证金率达到平台标准而被强制平仓。网格收益为正，也不代表整体未实现盈亏为正。\\n\\nBybit 将 DCA 机器人与网格机器人分开管理。DCA 按设定间隔购买，网格则根据区间内价格变化挂出买卖单；两者都可能在长期单边市场中持有不利资产。\\n\\n## 创建前检查参数\\n\\n1. 选择现货或合约产品，确认机器人所使用的账户和资金。\\n2. 设置价格上下限、网格间隔、数量、方向、投入金额和止盈止损条件。\\n3. 检查单笔订单大小、交易手续费、资金费用和所需保证金。\\n4. 确认价格离开区间、订单未成交或行情跳变时会发生什么。\\n5. 了解机器人能否修改参数、怎样终止，以及终止时如何处理未平仓位。\\n\\n## 不要只看“网格收益”\\n\\n网格收益通常汇总已完成的买卖配对；总盈亏还要计入未平仓位的盈亏、费用和资金成本。价格持续走出区间时，已实现的网格收益可能不足以抵消持仓亏损。终止合约机器人时，仓位还可能按当时市场价格处理。\\n\\n只用能承受损失的资金，并定期检查运行中的机器人。合约机器人可能导致投入资金损失，模拟回测也不能预示未来。本文只说明工具机制，不构成交易建议。\n\n## 我的 Bybit 邀请信息\n\n[通过我的 Bybit 邀请链接查看注册入口](https://www.bybit.com/zh-TW/invite?ref=NPN4KO8)  \n邀请码：**NPN4KO8**\n\n若你通过此链接注册并符合平台条件，我可能获得推荐佣金。注册资格、产品可用性及任何优惠，以 Bybit 当前页面和适用条款为准。"
+  },
+  {
     "id": "bybit-convert-otc-guide",
     "title": "Bybit Convert和OTC怎么区分？报价、限价与大额兑换",
     "excerpt": "Convert可按即时报价或设定限价兑换支持的资产；大额订单可能适用OTC报价，最终金额以确认页为准。",
