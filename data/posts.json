@@ -1,5 +1,17 @@
 [
   {
+    "id": "bybit-app-download-safety-guide",
+    "title": "Bybit App怎么下载？官方渠道、安装核验与账户安全",
+    "excerpt": "从 Bybit 官方下载页或设备应用商店进入，核对发布者、安装来源与账户安全设置；应用商店展示和功能资格可能因地区而异。",
+    "cover": "media/cover-bybit-app-download.svg",
+    "body": "安装交易平台 App 前，先确认来源是否官方。仿冒应用可能用相似名称和图标诱导登录，进而窃取密码、验证码或账户资料。本文整理从官方入口下载和安装后的核对方法，不提供更改地区资料或绕过平台限制的步骤。\n\n![Bybit App官方来源四步核验：从官网进入、选择设备正式渠道、核对发布者与权限、安装后检查账户安全](media/diagram-bybit-app-download.svg)\n\n## 从 Bybit 官方下载页面进入\n\n先手动输入或使用已保存的 Bybit 官方网址，打开 [Bybit 官方下载页](https://www.bybit.com/en/download)。确认浏览器地址栏的域名为 bybit.com，并从该页面提供的设备选项继续。Bybit 的 [iOS 与 Android 下载说明](https://www.bybit.com/en/learn/bybit-guide/how-to-download-the-bybit-app-on-ios-and-android-devices)介绍了 App Store、Google Play 及 Android 官方安装包等渠道；页面、应用商店和各地区的可用选项可能变化。\n\n不要通过搜索广告、陌生社群消息、短网址、网盘或第三方 APK 网站下载。即使页面使用 Bybit 标志或相同应用名称，也不能据此确认它是官方版本。\n\n## 按设备选择可核实的渠道\n\n**iPhone 与 iPad：**如果所在地区的 App Store 显示 Bybit App，从官方 Bybit 下载页进入相应商店页面，并核对应用名称与发布者。若商店中无法找到，请先查看 Bybit 官方下载页或帮助中心的当前说明；不要安装陌生人提供的描述文件、企业签名应用或其他非官方版本。\n\n**Android：**优先从 Google Play 的官方应用页面安装。如果 Bybit 官方下载页为你的设备提供 Android 安装包，只能从该 Bybit 官方页面获取。安装前再次核对浏览器中的域名，不要使用第三方镜像或他人转发的 APK。Android 不同版本的安全提示和安装权限设置可能不同；只按设备当前系统提示操作，并在安装后检查权限设置。\n\n**电脑：**如需使用桌面网页，直接从 Bybit 官方网站登录。若下载桌面程序，也从 Bybit 官方下载页选择对应系统的版本，并核对下载页面与安装文件来源。\n\n## 安装后先做安全检查\n\n1. 首次启动前确认应用来自你刚才核对的官方商店页面或 Bybit 官方下载页。\n2. 只在官方 App 中输入登录信息；不要在聊天、邮件或陌生网页中提供密码、验证码、API 密钥、助记词或私钥。\n3. 登录后查看安全设置，按账户可用选项启用多重验证，并检查已登录设备和活跃会话。\n4. 检查 App 请求的系统权限。只允许你理解且当前功能需要的权限；可在设备设置中随时复查。\n5. 定期通过原来的官方商店渠道或官网检查更新，不安装所谓“客服版”“内部版”或他人发送的更新包。\n\n如果误装来源不明的应用，不要在其中登录。卸载后，从官方渠道重新安装；若已输入账户信息，尽快通过官方网页或已确认的官方 App 更改凭据、撤销不认识的会话或授权，并联系官方支持。\n\n## 台湾读者还要区分应用可下载与产品资格\n\n应用商店能否显示 App、账户能否注册、身份认证能否通过，以及某一项产品是否可用，是不同问题。Bybit 于 2026 年 9 月 1 日更新的[服务限制说明](https://www.bybit.com/en/help-center/article/Service-Restricted-Countries)列出的受限地区名单未列台湾，但这不代表每项产品、支付方式或功能都对台湾开放。请按实际居住地填写资料，并以账户内提示和具体产品的当前条款为准；不要根据 App 能安装或旧教程推断服务资格。\n\n## 我的 Bybit 邀请信息\n\n[通过我的 Bybit 邀请链接查看注册入口](https://www.bybit.com/zh-TW/invite?ref=NPN4KO8)  \n邀请码：**NPN4KO8**\n\n若你通过此链接注册并符合平台条件，我可能获得推荐佣金。注册资格、产品可用性及任何优惠，以 Bybit 当前页面和适用条款为准。\n\n本文为一般应用安全说明，不构成开户或投资建议。交易平台应用的可用性、页面选项和服务规则可能变化，请以 Bybit 官方最新信息为准。",
+    "type": "文章",
+    "category": "Bybit交易所",
+    "date": "2026-10-02",
+    "author": "站长",
+    "featured": false
+  },
+  {
     "id": "bybit-ai-skill-hub-overview",
     "title": "Bybit AI Skill Hub 是什么？技能安装、API授权与风险检查",
     "excerpt": "分清 Bybit AI、AI 子账户与 AI 技能，检查发布者、密钥流向和交易权限，了解启用与撤销时的风险。",
