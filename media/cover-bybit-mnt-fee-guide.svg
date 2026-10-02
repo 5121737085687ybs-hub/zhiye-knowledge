@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Bybit使用MNT抵扣手续费封面</title><desc id="desc">查看现货与合约手续费折扣，核对适用产品并考虑MNT价格波动。</desc>
+<rect width="1200" height="630" rx="34" fill="#f5f2e9"/><circle cx="960" cy="315" r="250" fill="#e1ebe3"/><circle cx="960" cy="315" r="170" fill="#d4e0d6"/>
+<text x="72" y="82" fill="#597267" font-family="sans-serif" font-size="20" letter-spacing="4">知页 · 交易费用</text>
+<text x="72" y="185" fill="#203d34" font-family="sans-serif" font-size="52" font-weight="700">先算折扣，再看成本</text>
+<text x="74" y="245" fill="#496057" font-family="sans-serif" font-size="29">Bybit MNT手续费抵扣说明</text>
+<g transform="translate(820 160)"><rect x="0" y="25" width="310" height="230" rx="30" fill="#fffdf8" stroke="#315348" stroke-width="7"/><text x="155" y="105" text-anchor="middle" fill="#315348" font-family="sans-serif" font-size="58" font-weight="700">MNT</text><path d="M68 155h174" stroke="#d4e0d6" stroke-width="16" stroke-linecap="round"/><path d="m85 190 45 0m35 0 60 0" stroke="#789483" stroke-width="12" stroke-linecap="round"/><circle cx="290" cy="25" r="17" fill="#c7794b"/></g>
+<rect x="72" y="390" width="205" height="64" rx="18" fill="#e1ebe3"/><text x="174" y="430" text-anchor="middle" fill="#315348" font-family="sans-serif" font-size="22" font-weight="700">现货折扣</text>
+<rect x="298" y="390" width="205" height="64" rx="18" fill="#eee7d7"/><text x="400" y="430" text-anchor="middle" fill="#6f6241" font-family="sans-serif" font-size="22" font-weight="700">合约折扣</text>
+<rect x="524" y="390" width="205" height="64" rx="18" fill="#f1e2d9"/><text x="626" y="430" text-anchor="middle" fill="#885f4b" font-family="sans-serif" font-size="22" font-weight="700">核对代币成本</text>
+<text x="72" y="558" fill="#777a70" font-family="sans-serif" font-size="17" letter-spacing="2">抵扣规则可能调整；MNT本身也有价格波动风险</text></svg>
