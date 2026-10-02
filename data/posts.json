@@ -1,5 +1,17 @@
 [
   {
+    "id": "gate-card-eligibility-taiwan",
+    "title": "Gate Card台湾地区能申请吗？资格、费用与支付前核对",
+    "excerpt": "Gate Card按申请页面开放的国家或地区提供服务；不要把亚太宣传、旧版返现活动或钱包支付支持当成台湾发卡资格。",
+    "cover": "media/cover-gate-card-eligibility-taiwan.svg",
+    "type": "文章",
+    "category": "Gate大门交易所",
+    "date": "2026-10-03",
+    "author": "站长",
+    "featured": false,
+    "body": "Gate Card 的申请资格按 Gate 当前申卡页面选择的国家或地区判断。Gate 帮助中心说明，若申请流程中没有列出你的所在地，即表示暂未在该地区提供发卡服务。因此，台湾用户应以登录后申请页实际显示为准，不能仅凭“亚太卡”、其他地区用户经验或钱包可绑定推断自己符合资格。\n\n![Gate Card申请核对流程：先确认国家地区可选，再查身份要求、卡片费用和实际支付条件](media/diagram-gate-card-eligibility-taiwan.svg)\n\n## 申请前先确认地区资格\n\nGate 的[Gate Card 常见问题](https://www.gate.com/zh/help/gatecard/gc/50887)说明，申请人需按页面要求完成身份认证；国家和地区选项决定当前是否提供发卡服务。申请时只填写真实居住地与身份资料，不要选择其他地区或使用不属于自己的文件。\n\n申请入口出现某种卡片类型，也不代表你符合资格。实体卡、虚拟卡、卡种和付款功能可能有不同条件，审核通过与否仍由平台按其规则决定。\n\n## 别把旧返现宣传当成当前权益\n\n源站旧文章提到的固定消费返现、支持 Apple Pay/Google Pay 或特定地区申请，都可能对应过去的产品版本和活动条件。申请前应在 Gate Card 页面核对：\n\n- 适用国家或地区及所需身份认证。\n- 卡种、虚拟卡或实体卡的申请要求。\n- 兑换费、外币费用、ATM 取现、拒付及补卡费用。\n- 消费限额、商户类别限制和拒付处理流程。\n- 钱包绑定、3DS 验证和可用资产范围。\n- 返现活动是否仍有效、哪些交易符合条件以及奖励上限。\n\nGate 的[费率与限额说明](https://www.gate.com/zh-tw/help/gatecard/gc/50883)列出标准卡相关费用，但不同卡种、地区和时间的规则可能不同。以你申请页面的条款和确认页为准。\n\n## 支付和账户安全\n\n把卡片绑定到数字钱包前，确认钱包账户、卡片持有人和 Gate 账户均为本人使用。开启交易通知，定期检查消费记录；遗失卡片或发现可疑交易时，通过 Gate 官方账户页面暂停卡片并联系官方支持。不要在聊天软件中发送卡号、CVV、验证码或完整证件照片。\n\n本文只整理申请前的核对方法，不保证 Gate Card 在台湾开放申请，也不构成金融或法律建议。\n\n## 我的 Gate 邀请信息\n\n[查看我的 Gate 新客闯关邀请链接]( https://www.gate.com/zh/referral/newbie-challenge/invite?ref=VABCUVPBCQ&ref_type=103&utm_cmp=PZQ8Nps1&activity_id=1790071046598 )  \n邀请码：**VABCUVPBCQ**\n\n该链接是 Gate 交易所新客活动入口，不是 Gate Card 专属申请或返现链接。活动时间、资格和奖励以 Gate 页面显示为准。若你通过此链接注册并符合平台条件，我可能获得推荐佣金。"
+  },
+  {
     "id": "gate-spot-trading-primer",
     "title": "Gate现货交易入门：交易对、市价单与限价单",
     "excerpt": "先看懂交易对和订单簿，再比较市价与限价委托；确认数量、费用和成交状态后再操作。",
