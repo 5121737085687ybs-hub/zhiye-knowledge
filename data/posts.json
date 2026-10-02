@@ -1,5 +1,17 @@
 [
   {
+    "id": "bybit-card-eligibility-taiwan",
+    "title": "Bybit Card台湾用户怎么核对？申请地区、费用与支付方式",
+    "excerpt": "Bybit Card按居住地区和卡片计划提供服务；“亚太卡”与台湾支持买币，不等于台湾必然符合发卡资格。",
+    "cover": "media/cover-bybit-card-eligibility.svg",
+    "body": "Bybit Card 是连接 Bybit 账户资金的支付卡服务，但发卡地区、卡片类型、费用和可绑定的支付钱包会因具体卡片计划而异。官方资料使用“Asia Pacific（亚太）”等计划名称，却不一定逐一列出这些计划包含的所有居住地区；不能只凭“亚太”字样推断台湾一定可以申请。\n\n![Bybit Card申请四步核对：以真实居住地查看资格、确认卡片计划、核对费用和钱包、再决定是否使用](media/diagram-bybit-card-eligibility.svg)\n\n## 先用实际居住地检查申请资格\n\nBybit 的[卡片申请说明](https://www.bybit.com/en/help-center/article/How-to-Apply-for-Bybit-Card)指出，申请时需要选择居住国家/地区；如果选定的居住地区不在支持范围，页面会登记意向并在服务开放时通知。请从 Bybit 官方网站或已确认的官方 App 进入申请页面，按照真实居住地查看当前资格，不要填写其他地区地址或借用他人资料。\n\nBybit 的[卡片常见问题](https://www.bybit.com/en/help-center/article/FAQ-Bybit-Card-General-Inquiries)按计划列出卡种与支付钱包：其中“Asia Pacific”计划列为 Visa 信用卡，支持 Google Pay；该 FAQ 未在这个地区组名称下逐项注明台湾是否属于可申请居住地。因此，即使你的账户可以进入 Bybit，也仍应以申请页面对实际居住地的资格提示为准。\n\n## 不要把银行卡买币支持当成发卡资格\n\nBybit 将快捷买币、银行卡支付与 Bybit Card 作为不同服务管理。其[快捷买币地区列表](https://www.bybit.com/en/help-center/article/Supported-Countries-Regions-for-Bank-Card-Payment)列出台湾可使用部分 Visa/Mastercard 或 Apple Pay 买币方式；这只能说明相应支付渠道在该功能的支持范围内，**不代表台湾一定可以申请 Bybit Card**。\n\n同理，商店可购买数字资产、账户内出现卡片入口、或其他亚太地区用户已经持卡，都不能单独证明你的居住地区符合发卡条件。\n\n## 申请前逐项核对成本与使用方式\n\n申请页面和适用于你卡片计划的最新条款应说明卡片类型、实体卡或虚拟卡、费用与限额、支持币种、扣款顺序、可绑定的钱包以及争议处理流程。先查看[Bybit Card 费用与消费限额](https://www.bybit.com/en/help-center/article/Fees-and-Spending-Limits-Bybit-Card)，再确认费用是否适用于你的地区和卡片计划。\n\nBybit 的卡片 FAQ 说明，卡片资金来源与 Funding Account（资金账户）及特定 Earn 余额有关；这并不意味着卡片有一个独立、与交易账户无关的“卡钱包”。外币消费、加密资产转换、ATM 取现和退款的处理方式应按你的具体卡片协议核对。数字资产价格变化也可能影响用于支付的资产价值。\n\n## 台湾读者的申请前检查清单\n\n- 在官方申请页面中选择真实居住地，确认系统明确显示可申请。\n- 阅读对应卡片计划的持卡人协议、发卡主体和适用地区。\n- 查看当前发行费、年费、外币费、加密资产转换费、ATM 费用与消费限额。\n- 核对卡片是信用卡还是预付卡，以及实体卡、虚拟卡和数字钱包支持范围。\n- 确认账单、扣款顺序、退款、争议处理和账户限制规则。\n- 如果申请页面只登记意向或没有显示资格，就等待官方更新；不要借地址、改居住资料或请第三方代办。\n\n卡片项目和地区资格会调整；以申请页面、卡片协议和账户内当前提示为准。本文不判断 Bybit Card 是否已向台湾所有居民开放，也不构成申请或投资建议。\n\n## 我的 Bybit 邀请信息\n\n[通过我的 Bybit 邀请链接查看注册入口](https://www.bybit.com/zh-TW/invite?ref=NPN4KO8)  \n邀请码：**NPN4KO8**\n\n若你通过此链接注册并符合平台条件，我可能获得推荐佣金。注册资格、产品可用性及任何优惠，以 Bybit 当前页面和适用条款为准。",
+    "type": "文章",
+    "category": "Bybit交易所",
+    "date": "2026-10-02",
+    "author": "站长",
+    "featured": false
+  },
+  {
     "id": "bybit-app-download-safety-guide",
     "title": "Bybit App怎么下载？官方渠道、安装核验与账户安全",
     "excerpt": "从 Bybit 官方下载页或设备应用商店进入，核对发布者、安装来源与账户安全设置；应用商店展示和功能资格可能因地区而异。",
