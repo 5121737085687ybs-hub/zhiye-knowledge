@@ -1,5 +1,41 @@
 [
   {
+    "id": "gate-spot-trading-primer",
+    "title": "Gate现货交易入门：交易对、市价单与限价单",
+    "excerpt": "先看懂交易对和订单簿，再比较市价与限价委托；确认数量、费用和成交状态后再操作。",
+    "cover": "media/cover-gate-spot-trading.svg",
+    "type": "文章",
+    "category": "Gate大门交易所",
+    "date": "2026-10-03",
+    "author": "站长",
+    "featured": false,
+    "body": "Gate 现货交易是用一种数字资产兑换另一种数字资产。例如 BTC/USDT 表示用 USDT 买卖 BTC。现货买入后，资产会记入相应现货账户；这与借款交易或永续合约不同，但币价下跌仍可能造成亏损。\n\n![Gate现货交易下单流程：选择交易对、设定委托方式和数量、核对订单后提交并查看成交记录](media/diagram-gate-spot-trading.svg)\n\n## 市价单和限价单\n\nGate 的[现货交易说明](https://www.gate.com/en-bs/help/trade/spot/100101/about-spot-trading)介绍了常见委托方式：\n\n- **市价单**优先按当前订单簿可成交价格执行。市场快速波动或流动性不足时，最终成交均价可能与页面刚才显示的价格不同。\n- **限价单**由你输入价格，订单可能等待买卖双方匹配；没有成交前通常会留在未成交订单中，用户可按界面规则取消。\n- **条件委托**等进阶订单可能按触发价和指定的委托方式运行；实际支持选项以交易页面为准。\n\n## 下单前后核对\n\n1. 确认交易对、买入或卖出方向及使用的账户。\n2. 查看订单簿、价差和当前流动性，避免只按最新成交价估算。\n3. 输入数量和限价；若选择市价单，确认预计支出或卖出数量。\n4. 检查手续费、最小下单数量及页面显示的价格保护规则。\n5. 提交后查看未成交订单、成交记录和账户余额；不要因页面延迟而重复下单。\n\nGate 的交易规则会因交易对和市场情况调整。现货交易没有永续合约的强平机制，但资产价格、流动性和交易执行仍有风险。本文用于解释基本操作，不构成交易建议。\n\n\n\n## 我的 Gate 邀请信息\n\n[通过我的 Gate 邀请链接查看新客闯关活动]( https://www.gate.com/zh/referral/newbie-challenge/invite?ref=VABCUVPBCQ&ref_type=103&utm_cmp=PZQ8Nps1&activity_id=1790071046598 )  \n邀请码：**VABCUVPBCQ**\n\n该链接指向 Gate 新客闯关活动，活动时间、资格和奖励以 Gate 页面显示为准；活动链接不代表固定返佣或奖励承诺。若你通过此链接注册并符合平台条件，我可能获得推荐佣金。"
+  },
+  {
+    "id": "gate-app-download-safety-guide",
+    "title": "Gate App怎么下载？官方渠道、安装核验与账户安全",
+    "excerpt": "从Gate官方页面或设备应用商店下载，核对发布者和网址；不按旧教程关闭系统安全保护或安装来历不明的APK。",
+    "cover": "media/cover-gate-app-download-safety.svg",
+    "type": "文章",
+    "category": "Gate大门交易所",
+    "date": "2026-10-03",
+    "author": "站长",
+    "featured": false,
+    "body": "下载交易平台 App 时，关键是确认来源真实、安装包未被替换，并保护登录凭证。旧版教程中要求绕过系统警告、关闭手机安全功能或通过 VPN 改变地区的做法，不适合作为通用安装指引。若 Gate 服务在你的所在地不可用，应以平台服务条款和当地规则为准，不要绕过限制。\n\n![Gate App安全下载流程：从官方渠道进入、核对发布者与应用信息、完成安装后再启用账户保护](media/diagram-gate-app-download-safety.svg)\n\n## 优先使用官方入口\n\nGate 的[官方 App 下载页](https://www.gate.com/appdownload)提供 App Store、Google Play 和 Android 下载入口。建议直接从 Gate 官方网站的下载页进入应用商店；安装前核对应用名称、发布者和商店页面。Android 用户只有在确实需要时才考虑从官方页面获取 APK，并先检查来源网址和版本说明。\n\n不要安装陌生人通过聊天、广告或短链接发来的安装包。不要关闭设备防护、忽略系统安全提示或把验证码交给所谓客服。遇到系统拦截，应先核实下载来源与文件，而不是照旧教程强行安装。\n\n## 安装后检查账户安全\n\n1. 使用强且独立的登录密码，并保护绑定邮箱和手机。\n2. 启用双重验证、Passkey 或平台提供的安全功能。\n3. 设置反钓鱼码，并通过 Gate 官方[验证渠道](https://www.gate.com/tr/officialverify)核实可疑域名、邮件和联系方式。\n4. 只从自己输入或收藏的官方域名登录；确认地址栏域名无拼写差异。\n5. 不向任何人提供密码、GateCode、验证码、资金密码或助记词。\n6. 定期检查登录设备、API 权限、提币地址和安全通知。\n\nGate 的[反钓鱼说明](https://www.gate.com/en-us/help/guide/security-zone/22535)提醒用户警惕假客服与仿冒链接。Gate 客服不会索取你的密码或验证码。\n\n\n\n## 我的 Gate 邀请信息\n\n[通过我的 Gate 邀请链接查看新客闯关活动]( https://www.gate.com/zh/referral/newbie-challenge/invite?ref=VABCUVPBCQ&ref_type=103&utm_cmp=PZQ8Nps1&activity_id=1790071046598 )  \n邀请码：**VABCUVPBCQ**\n\n该链接指向 Gate 新客闯关活动，活动时间、资格和奖励以 Gate 页面显示为准；活动链接不代表固定返佣或奖励承诺。若你通过此链接注册并符合平台条件，我可能获得推荐佣金。"
+  },
+  {
+    "id": "gate-new-user-challenge-guide",
+    "title": "Gate新客闯关活动怎么参加？邀请码、资格与奖励核对",
+    "excerpt": "新客活动通常有期限、任务和地区条件；先确认活动页仍开放及规则，再决定是否参与。",
+    "cover": "media/cover-gate-new-user-challenge.svg",
+    "type": "文章",
+    "category": "Gate大门交易所",
+    "date": "2026-10-03",
+    "author": "站长",
+    "featured": false,
+    "body": "Gate 新客闯关活动通过邀请链接识别新用户，并按活动页面列出的任务和资格发放奖励。邀请码或链接本身不保证奖励到账，也不代表手续费固定折扣。Gate 公告显示，此类活动的有效时间、挑战项目和奖品条件可能限定在具体活动期内；当前可参加的任务应以打开后的活动页面为准。\n\n![Gate新客活动流程：先核对活动期限和资格，再按需完成任务并在活动页查看奖励状态](media/diagram-gate-new-user-challenge.svg)\n\n## 参与前核对活动规则\n\nGate 的[新客闯关活动公告](https://www.gate.com/pt-br/announcements/article/101904)说明，奖励活动可能设定活动时间、账户资格、任务步骤和奖励领取方式。活动期间或不同地区显示的内容可能不同。进入页面后先检查：\n\n- 活动是否仍在有效时间内，页面倒计时及公告日期是否匹配。\n- 你的居住地区、账户状态和身份认证是否符合页面资格。\n- 注册是否必须通过活动专属链接或邀请码关联。\n- 任务是否要求入金、交易、持仓或手动领取奖励。\n- 奖励的类型、数量、发放时间、使用条件和失效时间。\n- 是否允许同时参加其他活动，是否有最低限额或名额限制。\n\n不要为了完成挑战而超出自己的风险承受范围去入金、交易或持仓。活动奖励价值可能变化，任务也可能产生交易费用和资产价格风险。\n\n## 使用我的邀请链接\n\n使用下方链接前，确认页面显示的是当前活动，而不是旧活动页。注册后检查邀请码已关联，再阅读每个任务的规则；如果页面不显示该活动或你不符合资格，不要尝试多开账户、虚报资料或绕过地区条件。\n\n\n\n## 我的 Gate 邀请信息\n\n[通过我的 Gate 邀请链接查看新客闯关活动]( https://www.gate.com/zh/referral/newbie-challenge/invite?ref=VABCUVPBCQ&ref_type=103&utm_cmp=PZQ8Nps1&activity_id=1790071046598 )  \n邀请码：**VABCUVPBCQ**\n\n该链接指向 Gate 新客闯关活动，活动时间、资格和奖励以 Gate 页面显示为准；活动链接不代表固定返佣或奖励承诺。若你通过此链接注册并符合平台条件，我可能获得推荐佣金。"
+  },
+  {
     "id": "bybit-eth-staking-steth-guide",
     "title": "Bybit ETH质押与stETH：凭证代币、收益来源和赎回风险",
     "excerpt": "质押可能收到流动性质押代币，收益与兑换比例、网络状态和产品规则有关；不要把它当成随时1:1兑回的现金。",
